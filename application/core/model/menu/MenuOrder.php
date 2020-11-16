@@ -124,7 +124,7 @@ class MenuOrder extends ModelBasic
             $cart_info[$k] = $v;
         }
         if (!empty($cart_info)){
-            $res3 = MenuCartInfo::setAll($cart_info)
+            $res3 = MenuCartInfo::setAll($cart_info);
         }
         return $res1 && $res2 && $res3;
     }
