@@ -6692,3 +6692,943 @@
 [ info ] [ DB ] INIT mysql
 [ info ] [ LOG ] INIT File
 [ error ] [0]读取用户信息失败![D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp\helper.php:59]
+---------------------------------------------------------------
+[ 2020-11-16T17:37:19+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.052429s] [吞吐率：19.07req/s] [内存消耗：1,925.88kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'df322dc2-763f-4c0e-bc7a-93fc73bd47bf',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:37:45+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.206802s] [吞吐率：4.84req/s] [内存消耗：3,532.45kb] [文件加载：69]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '1a37ea74-99d6-4cb1-a37b-da1924579484',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[D:\phpstudy_pro\WWW\xicheng\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2020-11-16T17:41:47+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.044748s] [吞吐率：22.35req/s] [内存消耗：3,532.45kb] [文件加载：69]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '5ed123eb-deea-49fc-b921-1233abb47513',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)[D:\phpstudy_pro\WWW\xicheng\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2020-11-16T17:42:10+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.065610s] [吞吐率：15.24req/s] [内存消耗：3,613.66kb] [文件加载：66]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '60c8da3c-3aea-47fc-8670-4ecddd123721',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:42:27+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.015816s] [吞吐率：63.23req/s] [内存消耗：2,014.20kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'ef0ead5c-eaf9-4b6c-852e-69b58e2cb36d',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:42:42+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.063398s] [吞吐率：15.77req/s] [内存消耗：3,613.66kb] [文件加载：66]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'c77e6ac3-465d-4aa7-a88f-423e2a2ec250',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:43:07+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.014241s] [吞吐率：70.22req/s] [内存消耗：2,014.04kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'cba7c78b-1f2f-46c1-a746-036c2b101873',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:43:44+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.171017s] [吞吐率：5.85req/s] [内存消耗：3,389.56kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '1064e0d0-ccec-46d9-9360-fde4e0ef21b6',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:44:20+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.050495s] [吞吐率：19.80req/s] [内存消耗：3,626.45kb] [文件加载：66]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '07cfef18-2975-4155-888c-b79dd38c4d80',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:44:58+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.042936s] [吞吐率：23.29req/s] [内存消耗：3,626.45kb] [文件加载：66]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'de29677e-b944-4b93-941f-0e7b2f492c24',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:45:15+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.042313s] [吞吐率：23.63req/s] [内存消耗：3,353.98kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '19cfd2f8-846a-4bcc-881d-2b6a0f15193e',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:45:48+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.044414s] [吞吐率：22.52req/s] [内存消耗：3,632.38kb] [文件加载：66]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'b3de7da2-2b5a-45f4-a40d-30dd0d02db87',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:45:55+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.350504s] [吞吐率：2.85req/s] [内存消耗：3,718.10kb] [文件加载：71]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '8cda1354-06b9-47ea-bd75-a9c4109df907',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.173026s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->buy[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:46:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.280035s] [吞吐率：3.57req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000020s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:47:23+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.233647s] [吞吐率：4.28req/s] [内存消耗：3,706.13kb] [文件加载：70]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'a36973d6-7103-4941-9eaa-7a262125032b',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.187989s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->buy[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:47:58+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=1&coupon_id=5
+[运行时间：0.232629s] [吞吐率：4.30req/s] [内存消耗：3,706.13kb] [文件加载：70]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '3f5979dd-2bc5-4923-bb83-672f459f11a9',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '1',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.187195s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->buy[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:48:12+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=2&coupon_id=5
+[运行时间：0.314760s] [吞吐率：3.18req/s] [内存消耗：3,710.81kb] [文件加载：70]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '012b8290-85a6-4eaf-a5e3-76a54a79ad47',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '2',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.283117s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->buy[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:48:22+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=2&coupon_id=5
+[运行时间：0.264909s] [吞吐率：3.77req/s] [内存消耗：3,819.41kb] [文件加载：72]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '5662453c-e053-4750-9fb3-5a454d247d0c',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '2',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.176777s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->buy[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:49:04+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=2&coupon_id=5
+[运行时间：0.287106s] [吞吐率：3.48req/s] [内存消耗：3,708.26kb] [文件加载：70]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '72ba65f4-1872-49f8-a6ca-7ef8b37f444b',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '2',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.237906s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->buy[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:49:31+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=2&coupon_id=5
+[运行时间：0.244960s] [吞吐率：4.08req/s] [内存消耗：3,708.26kb] [文件加载：70]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'c548af8a-7769-448b-a380-0b45b88440ae',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '2',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.199940s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->buy[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:50:37+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=2&coupon_id=5
+[运行时间：0.321359s] [吞吐率：3.11req/s] [内存消耗：3,957.35kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '18135e4e-d870-4c0c-a305-bd004ef381f8',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '2',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.124456s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->buy[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:52:28+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/qrcode?order_id=3
+[运行时间：0.205163s] [吞吐率：4.87req/s] [内存消耗：3,747.02kb] [文件加载：71]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'f78f5ce8-e83a-43f5-9c61-46628712600e',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.158131s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->qrcode[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:53:02+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/qrcode?order_id=3
+[运行时间：0.189780s] [吞吐率：5.27req/s] [内存消耗：3,641.80kb] [文件加载：69]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'cd425504-cd52-46e8-800f-bf54864037cf',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.148365s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->qrcode[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:53:48+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/qrcode?order_id=3
+[运行时间：0.328081s] [吞吐率：3.05req/s] [内存消耗：4,302.13kb] [文件加载：72]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'qrcode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'e31f5b87-7e2f-4a98-86f4-8bf7b7d1260e',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.170936s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->qrcode[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:56:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.065868s] [吞吐率：15.18req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000010s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:57:12+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/write_off?order_id=3
+[运行时间：0.252163s] [吞吐率：3.97req/s] [内存消耗：3,854.55kb] [文件加载：72]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'write_off',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '7b227d05-fbd1-4dc9-9c00-bfe05db92e24',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.206110s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->write_off[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:57:38+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/write_off?order_id=3
+[运行时间：0.281665s] [吞吐率：3.55req/s] [内存消耗：3,854.80kb] [文件加载：72]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'write_off',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '510a3b75-e3b6-45fa-b388-29b80e9a18e7',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.205860s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->write_off[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T17:59:01+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/write_off?order_id=3
+[运行时间：0.274926s] [吞吐率：3.64req/s] [内存消耗：3,854.80kb] [文件加载：72]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'write_off',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '9507286a-d50c-48e9-8deb-2245922ab148',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.219131s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->write_off[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T18:01:08+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/write_off?order_id=3
+[运行时间：0.224453s] [吞吐率：4.46req/s] [内存消耗：3,854.80kb] [文件加载：72]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'write_off',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '7d6208ec-406b-4999-98de-af1d1dae223a',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.177906s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->write_off[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T18:01:45+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/write_off?order_id=3
+[运行时间：0.241196s] [吞吐率：4.15req/s] [内存消耗：3,855.06kb] [文件加载：72]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'write_off',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'dd07502c-821a-4a52-ac21-416ab9ea18f0',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.194050s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->write_off[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T18:06:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.058902s] [吞吐率：16.98req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000010s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File

@@ -130,3 +130,36 @@
 [ info ] [ LOG ] INIT File
 [ error ] [2]Illegal string offset 'price'[D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\model\store\StoreProduct.php:317]
 [ error ] [0] Illegal string offset 'price' [D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\model\store\StoreProduct.php : 317]
+---------------------------------------------------------------
+[ 2020-11-16T17:50:03+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/buy?activity_id=2&coupon_id=5
+[运行时间：0.276367s] [吞吐率：3.62req/s] [内存消耗：3,948.29kb] [文件加载：80]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'buy',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'b74896f3-3e62-4831-bd53-3b73b553b544',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'activity_id' => '2',
+  'coupon_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.177592s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->buy[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: coupon[D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php:92]
+[ error ] [0] Undefined variable: coupon [D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php : 92]

@@ -10,6 +10,7 @@ class AuthController extends Basic
 
     protected function _initialize()
     {
+        
         parent::_initialize();
         //验证TOken并获取user信息
         $this->userInfo=$this->checkTokenGetUserInfo();

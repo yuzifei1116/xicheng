@@ -71,11 +71,11 @@ class ActivityApi extends AuthController
                 return JsonService::status('pay_error','微信支付失败');
             }
         }else{ //微信支付
-            if (ActivityOrder::jsPay($order['order_id'])){
+            // if (ActivityOrder::jsPay($order['order_id'])){
                 return JsonService::status('success', '微信支付成功',$info);
-            }else{
-                return JsonService::status('pay_error','微信支付失败');
-            }
+            // }else{
+            //     return JsonService::status('pay_error','微信支付失败');
+            // }
         }
     }
 
@@ -87,11 +87,12 @@ class ActivityApi extends AuthController
         //优惠券抵扣
         $discount_price = 0; //TODO 优惠券抵扣金额
         if ($coupon_id){
-            $coupon = Coupon::get(['id'=>$coupon_id,'is_del'=>0,'status'=>1]);
-            if (empty($coupon)) return JsonService::failjson('没有此优惠券');
+            $coupon_use = CouponUse::get(['coupon_id'=>$coupon_id,'is_use'=>0,'uid'=>$this->uid]);
+            if (empty($coupon_use)) return JsonService::failjson('没有此优惠券');
+            $coupon = Coupon::get(['id'=>$coupon_use['coupon_id'],'type'=>3]);
+            if (empty($coupon)) return JsonService::failjson('请先领取优惠券');
             if ($coupon['start_time'] > time() || $coupon['end_time'] < time()) return JsonService::failjson('此优惠券暂不能使用');
-            $coupon_use = CouponUse::get(['coupon_id'=>$coupon_id,'uid'=>$this->uid,'is_use'=>0]);
-            if (empty($coupon_use)) return JsonService::failjson('请先领取优惠券');
+            
             $discount_price = $coupon['money'];
         }
 
@@ -242,7 +243,7 @@ class ActivityApi extends AuthController
     public function qrcode()
     {
         $order_id = input('get.order_id/d',0);
-        $order = ActivityOrder::get(['order_id'=>$order_id]);
+        $order = ActivityOrder::get(['id'=>$order_id]);
         if (empty($order)) return JsonService::failjson('数据不存在');
         if ($order['uid'] != $this->uid) return JsonService::failjson('数据错误');
         if ($order['status'] != 0) return JsonService::failjson('数据错误');
@@ -268,5 +269,19 @@ class ActivityApi extends AuthController
         $errorCorrectionLevel = 'L';  //容错级别
         $matrixPointSize = 5;      //生成图片大小
         \QRcode::png($order_id,$file, $errorCorrectionLevel, $matrixPointSize, 2);
+    }
+
+    /**
+     * 核销
+     */
+    public function write_off()
+    {
+        $order_id = input('get.order_id/d',0);
+        $order = ActivityOrder::get(['id'=>$order_id])->toArray();
+        if (empty($order)) return JsonService::failjson('数据不存在');
+        if ($order['uid'] != $this->uid) return JsonService::failjson('数据错误');
+        if ($order['status'] != 0) return JsonService::failjson('数据错误');
+        unset($order['integral_deduction']);
+        return \json_encode($order);
     }
 }
