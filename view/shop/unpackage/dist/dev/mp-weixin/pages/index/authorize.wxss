@@ -1,0 +1,32 @@
+
+.auth-zhezhao{
+	position: fixed;
+	top:0rpx;
+	left:0rpx;
+	width:100%;
+	height:100%;
+	background-color: #000000;
+	opacity: 0.5;
+}
+.auth{
+	/* po */
+}
+.auth-img{
+	position: fixed;
+	top: 23%;
+	left:130rpx;
+	width:500rpx;
+	z-index: 9;
+}
+.auth-btn{
+	position: fixed;
+	top: 46%;
+	left:130rpx;
+	width:500rpx;
+	height:200rpx;
+	/* background: red; */
+	/* border:1px solid red; */
+	z-index: 10;
+	opacity: 0;
+}
+

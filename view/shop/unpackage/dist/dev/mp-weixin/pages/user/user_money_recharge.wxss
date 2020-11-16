@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.container{
+	padding:20rpx 80rpx;
+	text-align: center;
+}
+.rec{
+	color:#C5C5C5;
+	font-size: 29rpx;
+	margin-bottom:60rpx;
+}
+.rech{
+	
+	border-bottom:1px solid #DCDCDC;
+	margin-bottom:20rpx;
+}
+.rech-q{
+	font-size:60rpx;
+}
+.rech-inp{
+	/* border:1px solid red; */
+	height:80rpx;
+}
+.rec-t{
+	font-size:29rpx;
+	color:#878787;
+	margin-bottom:40rpx;
+}
+.red{
+	color:red;
+	margin-left:10rpx;
+}
+.con-ch{
+	margin-top:50rpx;
+}
+.con-ch-tit{
+	font-size:35rpx;
+	color:#292929;
+}
+.con-ch-d{
+	font-size:28rpx;
+	color:red;
+	margin-bottom: 5rpx;
+}
+.btn {
+  border-radius: 50rpx;
+  border: 0rpx;
+  background: #fa436a;
+  color: #fff;
+}
+

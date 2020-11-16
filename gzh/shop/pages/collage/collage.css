@@ -1,0 +1,138 @@
+.loaded{
+	width:100%;
+	/* border:1 */
+}
+.maskpri{
+	/* border:1px solid red; */
+	/* margin-top:10upx; */
+}
+.maskname{
+	font-size:35upx;
+	font-weight: bold;
+	margin-bottom:6upx;
+}
+.stock{
+	font-size:20upx;
+}
+
+/* 数量 */
+.makenum{
+	font-size:30upx;
+	color:#606266;
+	margin-bottom:15upx;
+	margin-top:10upx;
+}
+.cnum{
+	/* border:2upx solid #A4A4A4; */
+	/* padding:4upx  0upx ; */
+	width:244upx;
+}
+.clnum{
+	width:80upx;
+	text-align: center;
+	line-height: 50upx;
+}
+.clnuml{
+	color:#A4A4A4;
+	font-weight: bold;
+	border:1upx solid #A4A4A4;
+	border-right:0;
+	font-size:40upx;
+	border-radius: 5upx 0upx 0upx 5upx;
+}
+.onnuml{
+	border:1px solid #E3E3E3;
+	color:#E3E3E3;
+	border-right:0;
+	
+}
+
+.clnumr{
+	color:#A4A4A4;
+	font-weight: bold;
+	font-size:40upx;
+	border:1upx solid #A4A4A4;
+	border-left:0;
+	height: 59upx;
+	border-radius: 0upx 5upx 5upx 0upx;
+	/* border:1px solid red; */
+}
+.onnumr{
+	border:1px solid #E3E3E3;
+	color:#E3E3E3;
+	border-left:0;
+}
+.clinum{
+	border:1px solid #A4A4A4;
+	font-size: 30upx;
+	/* border-right:1px solid #A4A4A4; */
+}
+.richimg{
+	/* border:1px solid red; */
+	/* width:50%; */
+}
+/deep/ .richimg img{
+	width:100%;
+}
+
+
+
+.price{
+	font-size:40upx;
+}
+.m-price{
+	font-size:25upx;
+	margin-left:10upx;
+	text-decoration: line-through;
+}
+.price-tip{
+	font-size:30upx;
+}
+.time-s{
+	font-size:22upx;
+	
+}
+.time-tit{
+	text-align: center;
+}
+
+
+
+.dtop{
+	margin-top:20upx;
+	padding:30upx 60upx;
+	background: #fff;
+	text-align: center;
+}
+
+.zfimg{
+	width:45upx;
+	height:40upx;
+}
+.zfont{
+	font-size:26upx;
+	color:#D4D4D4;
+}
+
+
+/* 进度条 */
+.dtops{
+	padding:30upx;
+	background: #fff;
+	margin-top:20upx;
+}
+.jdimg{
+	width:35upx;
+	height:30upx;
+}
+.jdtit{
+	font-size:30upx;
+	margin-left:15upx;
+}
+.jdy{
+	font-size: 31upx;
+	color:#797979;
+}
+.jdnum{
+	color:#FF4B67;
+}

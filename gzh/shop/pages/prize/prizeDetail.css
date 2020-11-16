@@ -1,0 +1,98 @@
+.hed{
+	padding:15upx 20upx;
+	background: #FFF;
+}
+.con-img{
+	width:180upx;
+	height:180upx;
+	margin-right: 20upx;
+	/* border:1px solid red */
+}
+.hed-t{
+	font-size: 25upx;
+	color:#646464;
+	/* border:1px solid red; */
+	width:500upx;
+}
+.hed-wx{
+	font-size: 34upx;
+	color:#000;
+}
+
+/* Ω±∆∑ */
+
+.prizt{
+	margin-top:15upx;
+	background: #fff;
+	/* padding:15upx 20upx; */
+}
+.prize-tit{
+	font-size: 33upx;
+	padding:15upx 20upx;
+	border-bottom:1px solid #FAFAFA;
+	
+}
+.prize-det{
+	padding:20upx;
+	text-align: center;
+}
+.prize-img{
+	/* border:1px solid red; */
+	width:600upx;
+}
+.prize-det-tit{
+	font-size: 32upx;
+	margin:10upx 0;
+}
+
+
+/* µÿ÷∑ */
+.peizt-d{
+	padding:0upx 20upx 20upx 20upx;
+	/* border: 1px solid red; */
+}
+.row{
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding:0 30upx;
+	height: 110upx;
+	background: #fff;
+}
+.tit{
+	flex-shrink: 0;
+	width: 120upx;
+	font-size: 30upx;
+	color: $font-color-dark;
+}
+.input{
+	flex: 1;
+	font-size: 30upx;
+	color: $font-color-dark;
+}
+.icon-shouhuodizhi{
+	font-size: 36upx;
+	color: $font-color-light;
+}
+.default-row{
+	margin-top: 16upx;
+	.tit{
+		flex: 1;
+	}
+	switch{
+		transform: translateX(16upx) scale(.9);
+	}
+}
+
+.btns{
+	font-size:30upx;
+	width:100%;
+	
+}
+
+
+
+.hei{
+	height:250upx;
+}
+

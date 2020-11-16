@@ -1,0 +1,1 @@
+<view class="content"><text class="success-icon yticon icon-xuanzhong2"></text><text class="tit">支付成功</text><view class="btn-group"><view data-event-opts="{{[['tap',[['orderD',['$event']]]]]}}" class="mix-btn" bindtap="__e">查看订单</view><navigator class="mix-btn hollow" url="/pages/index/index" open-type="switchTab">返回首页</navigator></view></view>

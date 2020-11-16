@@ -1,0 +1,99 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/set/set",
+    "pages/userinfo/userinfo",
+    "pages/cart/cart",
+    "pages/public/login",
+    "pages/user/user",
+    "pages/detail/detail",
+    "pages/order/order",
+    "pages/money/money",
+    "pages/order/createOrder",
+    "pages/address/address",
+    "pages/address/addressManage",
+    "pages/money/pay",
+    "pages/money/paySuccess",
+    "pages/notice/notice",
+    "pages/category/category",
+    "pages/product/list",
+    "pages/search/search",
+    "pages/user/coupon",
+    "pages/user/collect",
+    "pages/order/orderDetail",
+    "pages/order/orderEval",
+    "pages/order/orderT",
+    "pages/user/user_money",
+    "pages/user/user_bill",
+    "pages/user/user_integral",
+    "pages/user/user_sgin",
+    "pages/haibao/haibao",
+    "pages/seckill/list",
+    "pages/seckill/seckill",
+    "pages/integral/list",
+    "pages/integral/index",
+    "pages/integral/integralOrder",
+    "pages/integral/intOrder",
+    "pages/integral/intOrderDetail",
+    "pages/user/user_extension",
+    "pages/user/user_extension_list",
+    "pages/user/user_extension_det",
+    "pages/prize/draw",
+    "pages/prizeList/list",
+    "pages/prize/prize",
+    "pages/prize/prizeDetail",
+    "pages/user/user_money_recharge",
+    "pages/advance_sale/list",
+    "pages/advance_sale/advance_sale",
+    "pages/collage/list",
+    "pages/collage/collage",
+    "pages/article/article",
+    "pages/article/article_detail",
+    "pages/seller/seller",
+    "pages/seller/seller_product",
+    "pages/apply/apply",
+    "pages/seller/map"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#fa436a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-current.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/category/category",
+        "iconPath": "static/tab-cate.png",
+        "selectedIconPath": "static/tab-cate-current.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/tab-cart.png",
+        "selectedIconPath": "static/tab-cart-current.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tab-my.png",
+        "selectedIconPath": "static/tab-my-current.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {}
+}

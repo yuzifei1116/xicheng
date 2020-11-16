@@ -1,0 +1,4 @@
+<?php
+//000000000060
+ exit();?>
+a:4:{i:0;a:7:{s:2:"id";i:2;s:5:"title";s:9:"过山车";s:5:"image";s:51:"/public/uploads/attach/2020/09/24/5f6c0925540e0.jpg";s:5:"price";s:5:"30.00";s:14:"original_price";s:5:"50.00";s:5:"sales";i:5;s:5:"ficti";i:3;}i:1;a:7:{s:2:"id";i:3;s:5:"title";s:12:"旋转木马";s:5:"image";s:51:"/public/uploads/attach/2020/09/24/5f6c09123bb22.jpg";s:5:"price";s:5:"15.00";s:14:"original_price";s:5:"20.00";s:5:"sales";i:0;s:5:"ficti";i:2;}i:2;a:7:{s:2:"id";i:4;s:5:"title";s:9:"海盗船";s:5:"image";s:52:"/public/uploads/attach/2020/09/24/5f6c091021126.jpeg";s:5:"price";s:5:"30.00";s:14:"original_price";s:5:"50.00";s:5:"sales";i:0;s:5:"ficti";i:10;}i:3;a:7:{s:2:"id";i:5;s:5:"title";s:9:"摩天轮";s:5:"image";s:51:"/public/uploads/attach/2020/09/24/5f6c090e0401d.png";s:5:"price";s:5:"50.00";s:14:"original_price";s:5:"60.00";s:5:"sales";i:0;s:5:"ficti";i:15;}}

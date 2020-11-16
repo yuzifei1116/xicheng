@@ -1,0 +1,770 @@
+---------------------------------------------------------------
+[ 2020-11-11T18:45:11+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/public_api/index
+[运行时间：2.219779s] [吞吐率：0.45req/s] [内存消耗：2,856.60kb] [文件加载：71]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'public_api',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\PublicApi->index[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\PublicApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T18:47:29+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/menu_api/menu_cate_list
+[运行时间：2.105100s] [吞吐率：0.48req/s] [内存消耗：2,650.18kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'menu_api',
+    2 => 'menu_cate_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\MenuApi->menu_cate_list[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\MenuApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T18:47:49+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/shop_api/shop_cate_list
+[运行时间：2.117114s] [吞吐率：0.47req/s] [内存消耗：2,630.27kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'shop_api',
+    2 => 'shop_cate_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\ShopApi->shop_cate_list[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\ShopApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T18:47:51+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/shop_api/shop_list
+[运行时间：2.096992s] [吞吐率：0.48req/s] [内存消耗：2,644.69kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'shop_api',
+    2 => 'shop_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\ShopApi->shop_list[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\ShopApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T18:47:54+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/shop_api/shop_list?cate_id=0&page=2
+[运行时间：2.070679s] [吞吐率：0.48req/s] [内存消耗：2,640.45kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'shop_api',
+    2 => 'shop_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '0',
+  'page' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\ShopApi->shop_list[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\ShopApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T18:47:58+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/shop_api/shop_list?cate_id=2
+[运行时间：2.118220s] [吞吐率：0.47req/s] [内存消耗：2,662.81kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'shop_api',
+    2 => 'shop_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\ShopApi->shop_list[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\ShopApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T18:47:59+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/shop_api/shop_list?cate_id=3
+[运行时间：2.089500s] [吞吐率：0.48req/s] [内存消耗：2,655.58kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'shop_api',
+    2 => 'shop_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\ShopApi->shop_list[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\ShopApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T18:48:01+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/shop_api/shop_list?cate_id=4
+[运行时间：2.106322s] [吞吐率：0.47req/s] [内存消耗：2,655.57kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'shop_api',
+    2 => 'shop_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '4',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\ShopApi->shop_list[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\ShopApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T18:48:01+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/shop_api/shop_list?cate_id=5
+[运行时间：2.095746s] [吞吐率：0.48req/s] [内存消耗：2,655.57kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'shop_api',
+    2 => 'shop_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\ShopApi->shop_list[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\ShopApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T18:48:02+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/shop_api/shop_list?cate_id=6
+[运行时间：2.141918s] [吞吐率：0.47req/s] [内存消耗：2,655.57kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'shop_api',
+    2 => 'shop_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '6',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\ShopApi->shop_list[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\ShopApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T18:48:03+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/shop_api/shop_list?cate_id=4
+[运行时间：2.092867s] [吞吐率：0.48req/s] [内存消耗：2,655.57kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'shop_api',
+    2 => 'shop_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '4',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\ShopApi->shop_list[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\ShopApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T18:48:03+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/shop_api/shop_list?cate_id=5
+[运行时间：2.102849s] [吞吐率：0.48req/s] [内存消耗：2,655.57kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'shop_api',
+    2 => 'shop_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+  'cate_id' => '5',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\ShopApi->shop_list[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\ShopApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T18:48:07+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/activity_api/activity
+[运行时间：2.080828s] [吞吐率：0.48req/s] [内存消耗：2,655.41kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'activity_api',
+    2 => 'activity',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\ActivityApi->activity[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T18:48:31+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/activity_api/activity
+[运行时间：2.104493s] [吞吐率：0.48req/s] [内存消耗：2,655.41kb] [文件加载：64]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'activity_api',
+    2 => 'activity',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\ActivityApi->activity[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T19:04:47+08:00 ] 192.168.1.120 GET www.2009_xicheng.com/admin
+[运行时间：0.047190s] [吞吐率：21.19req/s] [内存消耗：2,025.82kb] [文件加载：55]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T19:04:47+08:00 ] 192.168.1.120 GET www.2009_xicheng.com/admin/login/index.html
+[运行时间：0.026077s] [吞吐率：38.35req/s] [内存消耗：1,550.07kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=igt8n3ojrvnhf376toimueajkp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->index[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng/application/admin/view/login/index.php [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T19:04:47+08:00 ] 192.168.1.120 GET www.2009_xicheng.com/admin/login/captcha.html
+[运行时间：0.032990s] [吞吐率：30.31req/s] [内存消耗：1,548.39kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=igt8n3ojrvnhf376toimueajkp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.2009_xicheng.com/admin/login/index.html',
+  'accept' => 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->captcha[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T19:04:47+08:00 ] 192.168.1.120 GET www.2009_xicheng.com/public/system/frame/css/bootstrap.min.css.map
+[运行时间：0.023348s] [吞吐率：42.83req/s] [内存消耗：1,299.59kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'system',
+    2 => 'frame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=igt8n3ojrvnhf376toimueajkp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T19:05:08+08:00 ] 192.168.1.120 POST www.2009_xicheng.com/admin/login/verify.html
+[运行时间：2.143231s] [吞吐率：0.47req/s] [内存消耗：2,663.98kb] [文件加载：68]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=igt8n3ojrvnhf376toimueajkp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.2009_xicheng.com/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://www.2009_xicheng.com',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'content-length' => '36',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+  'account' => 'admin',
+  'pwd' => '123456',
+  'verify' => '7532',
+)
+[ info ] [ RUN ] app\admin\controller\Login->verify[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\admin\controller\Login.php ]
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @system_admin_login_after [ RunTime:0.008286s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T19:05:10+08:00 ] 192.168.1.120 GET www.2009_xicheng.com/admin/index/index.html
+[运行时间：2.143924s] [吞吐率：0.47req/s] [内存消耗：2,932.56kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=igt8n3ojrvnhf376toimueajkp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.2009_xicheng.com/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000021s ]
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng/application/admin/view/index/index.php [ array (
+  0 => '_admin',
+  1 => 'menuList',
+  2 => 'site_logo',
+  3 => 'role_name',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T19:05:11+08:00 ] 192.168.1.120 GET www.2009_xicheng.com/public/system/frame/css/bootstrap.min.css.map
+[运行时间：0.024906s] [吞吐率：40.15req/s] [内存消耗：1,299.59kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'system',
+    2 => 'frame',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=igt8n3ojrvnhf376toimueajkp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+  'css' => 'bootstrap.min.css.map',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T19:05:12+08:00 ] 192.168.1.120 GET www.2009_xicheng.com/admin/index/main.html
+[运行时间：2.211422s] [吞吐率：0.45req/s] [内存消耗：3,453.15kb] [文件加载：73]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=igt8n3ojrvnhf376toimueajkp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.2009_xicheng.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000016s ]
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng/application/admin/view/index/main.php [ array (
+  0 => '_admin',
+  1 => 'first_line',
+  2 => 'second_line',
+  3 => 'topData',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T19:05:12+08:00 ] 192.168.1.120 GET www.2009_xicheng.com/public/static/plug/axios.min.map
+[运行时间：0.031367s] [吞吐率：31.88req/s] [内存消耗：1,298.99kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'public',
+    1 => 'static',
+    2 => 'plug',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=igt8n3ojrvnhf376toimueajkp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T19:05:14+08:00 ] 192.168.1.120 GET www.2009_xicheng.com/admin/index/jnotice.html
+[运行时间：2.971407s] [吞吐率：0.34req/s] [内存消耗：3,466.45kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=igt8n3ojrvnhf376toimueajkp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.2009_xicheng.com/admin/index/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000020s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-11T19:15:12+08:00 ] 192.168.1.120 GET www.2009_xicheng.com/admin/index/jnotice.html
+[运行时间：2.152083s] [吞吐率：0.46req/s] [内存消耗：3,466.45kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=igt8n3ojrvnhf376toimueajkp',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.2009_xicheng.com/admin/index/index.html',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000015s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File

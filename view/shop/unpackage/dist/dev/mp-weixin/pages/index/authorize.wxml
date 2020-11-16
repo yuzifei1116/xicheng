@@ -1,0 +1,1 @@
+<block wx:if="{{isHid}}"><view class="auth"><view data-event-opts="{{[['tap',[['hideAllClass',['$event']]]]]}}" class="auth-zhezhao" bindtap="__e"></view><image class="auth-img _img" src="{{$root.m0}}" alt></image><button data-event-opts="{{[['tap',[['auth',['$event']]]]]}}" class="auth-btn" bindtap="__e"></button></view></block>

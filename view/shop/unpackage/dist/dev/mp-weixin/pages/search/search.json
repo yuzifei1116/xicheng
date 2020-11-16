@@ -1,0 +1,8 @@
+{
+  "enablePullDownRefresh": true,
+  "navigationBarTitleText": "搜索",
+  "usingComponents": {
+    "uni-list-item": "/components/uni-list-item/uni-list-item",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

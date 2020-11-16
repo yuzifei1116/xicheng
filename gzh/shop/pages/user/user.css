@@ -1,0 +1,34 @@
+
+.onum{
+	position: relative;
+	width:50rpx;
+	/* height:50upx; */
+	padding:18upx 12upx;
+	/* border:1px solid red; */
+}
+uni-button{
+	border:0px solid red;
+	margin:0upx;
+	background:#fff;
+	padding:0 30upx;
+	height:90upx;
+	line-height: 90upx;
+	font-size:28rpx;
+	border-radius: 0;
+}
+uni-button:after {
+	border:0upx;
+}
+.btn-tit{
+	color:#303133;
+}
+.btn-img{
+	width:34upx;
+	height:34upx;
+	margin-top:26upx;
+	margin-right:20upx;
+}
+.btn-icon{
+	color:#606266;
+	font-size:30upx;
+}

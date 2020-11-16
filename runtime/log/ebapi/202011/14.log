@@ -1,0 +1,96 @@
+---------------------------------------------------------------
+[ 2020-11-14T10:16:48+08:00 ] 192.168.1.132 GET www.2009_xicheng.com/ebapi/user_api/my
+[运行时间：2.232543s] [吞吐率：0.45req/s] [内存消耗：3,349.04kb] [文件加载：85]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'user_api',
+    2 => 'my',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxbb1b573daa9870a1/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'token' => '7643f3ca20179a8cc532fb51cec7675c48290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e718718ffa6a92547a7eb5c3c1ab16bb28f722a374a363f882ed15eef67c3b652aab4f0cc5f763ad49984582d82f1fd59',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2010240 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.003124s ]
+[ info ] [ RUN ] app\ebapi\controller\UserApi->my[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\controller\UserApi.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause'[D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp\library\think\db\Connection.php:385]
+[ error ] [10501] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'category' in 'where clause' [D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp\library\think\db\Connection.php : 385]
+---------------------------------------------------------------
+[ 2020-11-14T18:17:16+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/ebapi/store_api/get_category_one_two
+[运行时间：2.123343s] [吞吐率：0.47req/s] [内存消耗：2,928.56kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'store_api',
+    2 => 'get_category_one_two',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'www.2009_xicheng.com',
+  'postman-token' => '68d85ab0-ce47-411b-a69f-324a51481252',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'token' => '7643f3ca20179a8cc532fb51cec7675c48290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e718718ffa6a92547a7eb5c3c1ab16bb28f722a374a363f882ed15eef67c3b652aab4f0cc5f763ad49984582d82f1fd59',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.003740s ]
+[ info ] [ RUN ] app\ebapi\controller\StoreApi->get_category_one_two[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\controller\StoreApi.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'[D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp\library\think\db\Connection.php:385]
+[ error ] [10501] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause' [D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp\library\think\db\Connection.php : 385]
+---------------------------------------------------------------
+[ 2020-11-14T18:17:41+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/ebapi/store_api/get_category
+[运行时间：2.147806s] [吞吐率：0.47req/s] [内存消耗：2,928.48kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'store_api',
+    2 => 'get_category',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'www.2009_xicheng.com',
+  'postman-token' => '9d1b4171-6a56-474f-a76d-bfaec2d8ba36',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'token' => '7643f3ca20179a8cc532fb51cec7675c48290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e718718ffa6a92547a7eb5c3c1ab16bb28f722a374a363f882ed15eef67c3b652aab4f0cc5f763ad49984582d82f1fd59',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.003725s ]
+[ info ] [ RUN ] app\ebapi\controller\StoreApi->get_category[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\controller\StoreApi.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause'[D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp\library\think\db\Connection.php:385]
+[ error ] [10501] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pid' in 'where clause' [D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp\library\think\db\Connection.php : 385]

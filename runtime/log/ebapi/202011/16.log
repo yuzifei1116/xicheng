@@ -1,0 +1,132 @@
+---------------------------------------------------------------
+[ 2020-11-16T10:33:19+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/ebapi/store_api/details?id=1
+[运行时间：2.162312s] [吞吐率：0.46req/s] [内存消耗：3,054.39kb] [文件加载：82]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'store_api',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'www.2009_xicheng.com',
+  'postman-token' => '6c8cf5d9-a7a6-4c46-b791-7591116c0c66',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'token' => '7643f3ca20179a8cc532fb51cec7675c48290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e718718ffa6a92547a7eb5c3c1ab16bb28f722a374a363f882ed15eef67c3b652aab4f0cc5f763ad49984582d82f1fd59',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.003361s ]
+[ info ] [ RUN ] app\ebapi\controller\StoreApi->details[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\controller\StoreApi.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: /public/uploads/attach/2020/04/26/5ea5690cf3571.png[D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\model\store\StoreProductAttr.php:39]
+[ error ] [0] Undefined index: /public/uploads/attach/2020/04/26/5ea5690cf3571.png [D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\model\store\StoreProductAttr.php : 39]
+---------------------------------------------------------------
+[ 2020-11-16T10:34:43+08:00 ] 192.168.1.132 GET www.2009_xicheng.com/ebapi/store_api/details?id=1
+[运行时间：2.132122s] [吞吐率：0.47req/s] [内存消耗：3,123.18kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'store_api',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxbb1b573daa9870a1/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'token' => '7643f3ca20179a8cc532fb51cec7675c48290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e21481cfdaf311c5ffe56dfa38eef11edc95e5a746571d1f2d2780223cdc7a8b71350b3e0ccec6fb24019f5746f8b970e',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2010240 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.002401s ]
+[ info ] [ RUN ] app\ebapi\controller\StoreApi->details[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\controller\StoreApi.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal string offset 'price'[D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\model\store\StoreProduct.php:317]
+[ error ] [0] Illegal string offset 'price' [D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\model\store\StoreProduct.php : 317]
+---------------------------------------------------------------
+[ 2020-11-16T10:34:50+08:00 ] 192.168.1.132 GET www.2009_xicheng.com/ebapi/store_api/details?id=1
+[运行时间：2.156350s] [吞吐率：0.46req/s] [内存消耗：3,123.18kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'store_api',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wxbb1b573daa9870a1/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'token' => '7643f3ca20179a8cc532fb51cec7675c48290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e21481cfdaf311c5ffe56dfa38eef11edc95e5a746571d1f2d2780223cdc7a8b71350b3e0ccec6fb24019f5746f8b970e',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2010240 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.002508s ]
+[ info ] [ RUN ] app\ebapi\controller\StoreApi->details[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\controller\StoreApi.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal string offset 'price'[D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\model\store\StoreProduct.php:317]
+[ error ] [0] Illegal string offset 'price' [D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\model\store\StoreProduct.php : 317]
+---------------------------------------------------------------
+[ 2020-11-16T10:34:55+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/ebapi/store_api/details?id=1
+[运行时间：2.172709s] [吞吐率：0.46req/s] [内存消耗：3,122.31kb] [文件加载：84]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'store_api',
+    2 => 'details',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'www.2009_xicheng.com',
+  'postman-token' => '7d92d46e-81cf-4ff1-9aa4-c166ba4b88ce',
+  'cache-control' => 'no-cache',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.8',
+  'token' => '7643f3ca20179a8cc532fb51cec7675c48290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e718718ffa6a92547a7eb5c3c1ab16bb28f722a374a363f882ed15eef67c3b652aab4f0cc5f763ad49984582d82f1fd59',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.002943s ]
+[ info ] [ RUN ] app\ebapi\controller\StoreApi->details[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\controller\StoreApi.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal string offset 'price'[D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\model\store\StoreProduct.php:317]
+[ error ] [0] Illegal string offset 'price' [D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\ebapi\model\store\StoreProduct.php : 317]

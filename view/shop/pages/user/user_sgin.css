@@ -1,0 +1,110 @@
+.all {
+	margin-top: 20upx;
+}
+
+.all .bar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 30upx 20upx;
+	padding: 10upx;
+}
+
+.bar .barbtn {
+	height: 60upx;
+	line-height: 60upx;
+	font-size: 24upx;
+}
+
+.all .week {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	/* padding: 20upx;
+	padding-left: 40upx;
+	padding-right: 40upx; */
+	/* border:1px solid red; */
+	/* background-color: #fff; */
+	padding: 20upx 36upx 20upx 20upx;
+	border-radius: 20upx;
+	color:#fff;
+	font-size:30upx;
+}
+.myDateTable {
+	margin: 20upx;
+	/* padding: 20upx 0upx 20upx 18upx; */
+	border-radius: 20upx;
+	background: linear-gradient(#74AADA, #94db98);
+}
+.myDateTable .dateCell {
+	/* width: 11vw; */
+	/* width: 22upx; */
+	width:65upx;
+	/* padding: 1vw; */
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+	margin:19upx;
+}
+
+.dateCell .cell {
+	display: flex;
+	border-radius: 50%;
+	height: 65upx;
+	justify-content: center;
+	align-items: center;
+}
+	
+
+	.whiteColor {
+		color: #fff;
+	}
+
+	.greenColor {
+		color: #01b90b;
+		font-weight: bold;
+	}
+
+	.bgWhite {
+		background-color: #fff;
+	}
+
+	.bgGray {
+		background-color: rgba(255, 255, 255, 0.42);
+	}
+
+	.bgBlue {
+		font-size: 14px;
+		background-color: #4b95e6;
+	}
+
+	.redColor {
+		color: #ff0000;
+	}
+	
+	.TipArea{
+		word-break:break-all;
+		word-wrap:break-word;
+		font-size: 14px;
+		padding: 20px;
+		
+		margin:0upx 20upx;
+		border-radius: 20upx;
+		
+		    background: linear-gradient(#74AADA, #94db98)
+		
+	}
+	.impTip{
+		display: inline-block;
+		color: #ff0000;
+	}
+	
+/* 总打卡 */	
+.leij{
+	color:#E3F7F2;
+}
+.leijnum{
+	color:#fff;
+	font-size:50upx;
+	font-weight: bold;
+}

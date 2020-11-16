@@ -1,0 +1,70 @@
+.evcon{
+	padding:10upx 30upx 20upx 30upx;
+	background:#FFF;
+	border-bottom:1px solid #F5F5F5;
+}
+.evimg{
+	width:150upx;
+	height:150upx;
+	/* border:1px solid red; */
+}
+.evt{
+	/* border:1px solid red; */
+	width:540upx;
+	padding-left:20upx;
+}
+.ncol{
+	color:#8E8E8E;
+	font-size: 30upx;
+}
+
+.evxing{
+	padding:40upx 30upx;
+	background:#fff;
+	/* border-bottom:1px solid #F5F5F5; */
+	font-size:30upx;
+}
+.evalx{
+	margin-bottom:30upx;
+}
+.evrate{
+	margin-top:19upx;
+	margin-left:35upx;
+}
+.product{
+	margin-left:30upx;
+	color:#ECECEC;
+	margin-top:
+}
+
+.evtext{
+	background:#FAFAFA;
+	margin-top:60upx;
+	border-radius: 5upx;
+	padding:25upx;
+}
+.evarea{
+	/* border:1px solid red; */
+}
+uni-textarea{
+	/* border:1px solid red; */
+	width:100%;
+	height:200upx;
+}
+.upimg{
+	margin-top:20upx;
+}
+.uplimg{
+	font-size:120upx;
+	text-align: center;
+	border:1px solid #ECECEC;
+	width:180upx;
+	height:180upx;
+	color:#ECECEC;
+}
+
+
+.btn{
+	margin-top:40upx;
+}
+

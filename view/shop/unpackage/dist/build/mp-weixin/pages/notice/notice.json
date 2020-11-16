@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "通知",
+  "usingComponents": {
+    "uni-collapse": "/components/uni-collapse/uni-collapse",
+    "uni-collapse-item": "/components/uni-collapse-item/uni-collapse-item",
+    "uni-list-item": "/components/uni-list-item/uni-list-item"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "预售详情",
+  "usingComponents": {
+    "share": "/components/share"
+  }
+}

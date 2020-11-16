@@ -1,0 +1,60 @@
+.evcon{
+	padding:10upx 30upx 20upx 30upx;
+	background:#FFF;
+	border-bottom:1px solid #F5F5F5;
+}
+.evimg{
+	width:150upx;
+	height:150upx;
+	/* border:1px solid red; */
+}
+.evt{
+	/* border:1px solid red; */
+	width:540upx;
+	padding-left:20upx;
+}
+.ncol{
+	color:#8E8E8E;
+	font-size: 30upx;
+}
+
+.evxing{
+	padding:30upx 30upx;
+	background:#fff;
+	margin-top:15upx;
+	/* border-bottom:1px solid #F5F5F5; */
+	font-size:30upx;
+}
+.evalx{
+	padding:25upx 10upx;
+	border-bottom: 1px solid #EDEDED;
+}
+.evrate{
+	margin-left:35upx;
+}
+
+
+.product{
+	margin-left:30upx;
+	color:#ECECEC;
+	margin-top:
+}
+
+.evtext{
+	background:#FAFAFA;
+	/* margin-top:60upx; */
+	border-radius: 5upx;
+	width:510upx;
+	height:200upx;
+	padding:15upx;
+}
+.eva-icon{
+	margin-top:4upx;
+	margin-left:5upx;
+}
+
+
+.btn{
+	margin-top:40upx;
+}
+

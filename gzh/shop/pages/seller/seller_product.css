@@ -1,0 +1,30 @@
+.d-hed{
+	border-bottom:1px solid #F2F2F2;
+	padding:20upx;
+	background: #fff;
+}
+.d-img{
+	width:150upx;
+	height:150upx;
+	margin-right:20upx;
+}
+.d-hed-name{
+	/* border:1px solid red; */
+	width:540upx;
+	font-size: 28upx;
+}
+.d-hed-dname{
+	font-size:35upx;
+	margin-bottom:8upx;
+}
+.d-hed-xl{
+	font-size:26upx;
+	color:#999999;
+	margin-bottom:8upx
+}
+.dz-icon{
+	color:#FA436A;
+	margin-right:10upx;
+	
+	
+}

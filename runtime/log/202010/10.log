@@ -1,0 +1,28 @@
+---------------------------------------------------------------
+[ 2020-10-10T15:32:50+08:00 ] 127.0.0.1 GET www.2009_xicheng.com/mini/public_api/index
+[运行时间：2.366985s] [吞吐率：0.42req/s] [内存消耗：2,858.80kb] [文件加载：71]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\2009_xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'mini',
+    1 => 'public_api',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'https://servicewechat.com/wx4f945fc7fc1fe1fc/devtools/page-frame.html',
+  'accept' => '*/*',
+  'content-type' => 'application/json',
+  'user-agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1 wechatdevtools/1.03.2008270 MicroMessenger/7.0.4 Language/zh_CN webview/',
+  'connection' => 'close',
+  'host' => 'www.2009_xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ RUN ] app\mini\controller\PublicApi->index[ D:\phpStudy\PHPTutorial\WWW\2009_xicheng\application\mini\controller\PublicApi.php ]
+[ info ] [ LOG ] INIT File

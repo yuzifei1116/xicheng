@@ -1,0 +1,154 @@
+/* 卡 */
+.con-hed{
+	padding:30rpx;
+	border-bottom:1px solid #F5F5F5;
+}
+.con-col{
+	color:#F7D680;
+	z-index: 1;
+}
+.con-color{
+	color:#f9e6af;
+}
+.con-hede{
+	background:#292929;
+	border-radius: 15rpx;
+	padding:15rpx;
+	height:350rpx;
+	/* background-image: url(../../static/vip-card-bg.png); */
+	/* background-attachment: fixed; */
+	/* background-repeat:no-repeat; */
+	/* float: right; */
+	/* width:100%; */
+	/* background-position:316upx 45upx; */
+	/* font- */
+}
+.con-img{
+	width:374rpx;
+	height:260rpx;
+	position: absolute;
+	top: 70rpx;
+	right: 30rpx;
+}
+.con-car{
+	padding:20rpx;
+	/* z-index: 999999999; */
+}
+.hed-zong{
+	font-size:27rpx;
+	z-index: 1;
+}
+.hed-chong{
+	background:#F7D680;
+	width: 66px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	font-size: 22rpx;
+	color: #36343c;
+	border-radius: 20px;
+	background: -webkit-linear-gradient(left, #f9e6af, #ffd465);
+	background: linear-gradient(left, #f9e6af, #ffd465);
+	z-index: 1;
+}
+.con-num{
+	padding:0rpx 20rpx;
+	font-size: 60rpx;
+}
+.con-num1{
+	z-index: 1;
+}
+.hed-l{
+	margin-top:50rpx;
+	padding:0rpx 20rpx;
+}
+.hed-lmon{
+	width:50%;
+	z-index: 1;
+}
+.hed-leij{
+	font-size:27rpx;
+}
+.hed-num{
+	font-size:45rpx;
+	margin-top:5rpx;
+}
+/* 列表 */
+.con-list{
+	margin-top:40rpx;
+	text-align: center;
+}
+.con-list-zd{
+	width:25%;
+	font-size: 30rpx;
+	color:
+}
+.con-list-icon{
+	color: #fbc22f;
+	font-size:50rpx;
+	/* color: linear-gradient(left, #f9e6af, #ffd465); */
+}
+.con-list-tit{
+	margin-top:10rpx;
+	color:#3e3e3e;
+}
+/* 签到 */
+.con-jf{
+	padding:30rpx;
+	/* width:50%; */
+	/* border:1px solid red; */
+}
+.con-jf-qd{
+	width:49%;
+	/* border:1px solid red; */
+	font-size: 30rpx;
+	padding:15rpx 20rpx;
+	border-radius: 8rpx;
+	color:#4e4e4e
+}
+.con-jf-bg{
+	background: #FFF6D1;
+}
+.con-jf-tit{
+	font-weight: bold;
+}
+.con-quan-bg{
+	background: #FFF3F3;
+}
+.con-jf-img{
+	width:78rpx;
+	height:78rpx;
+}
+.con-jf-det{
+	font-size: 24rpx;
+	margin-top:8rpx;
+}
+.con-ptlist{
+	margin-bottom:40rpx;
+}
+.con-pt{
+	margin-left:20rpx;
+	width:450rpx;
+	/* border:1px solid red; */
+}
+.con-pt-tit{
+	font-size:32rpx;
+	color:##383838;
+}
+.con-pt-det{
+	font-size:24rpx;
+	color:#999999;
+	margin-top:5rpx;
+}
+.con-btn{
+	background: #F2F2F2;
+	color:#AAAAAA;
+	font-size:26rpx;
+	width:140rpx;
+	height:50rpx;
+	border-radius: 50rpx;
+	line-height: 50rpx;
+	text-align: center;
+	margin-top:15rpx;
+}
+

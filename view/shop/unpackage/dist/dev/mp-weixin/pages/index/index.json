@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "screen-text-scroll": "/components/p-screenTextScroll/screenTextScroll"
+  }
+}

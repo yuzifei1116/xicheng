@@ -1,0 +1,86 @@
+ /* 商品列表 */
+ .goods-list{
+ 	display:flex;
+ 	flex-wrap:wrap;
+ 	padding: 10upx 30upx;
+ 	background: #fff;
+ }
+ .goods-item{
+ 	display:flex;
+ 	flex-direction: column;
+ 	width: 100%;
+ 	border-bottom:1px solid #F7F7F7;
+ 	/* padding-bottom: 40upx; */
+	/* border:1px solid red; */
+	padding:15upx 0upx;
+ 	&:nth-child(2n+1){
+ 		margin-right: 4%;
+ 	}
+ }
+ .image-wra{
+ 	border-radius: 3px;
+ 	overflow: hidden;
+ 	/* border:1px solid red; */
+	padding-right:10upx;
+ }
+ .couimg{
+ 	width:130upx;
+ 	height: 130upx;
+ 	opacity: 1;
+ 	/* border:1px solid red; */
+ }
+ .money{
+	/* border:1px solid red; */
+	color:red;
+	font-size: 45upx;
+ }
+ .coutime{
+	 font-size: 20upx;
+	 colro:;
+ }
+ .text{
+	/* border:1px solid red; */
+	width:410upx;
+	padding-left:5upx;
+ }
+ .line1{
+	font-size: 30upx;
+	margin-top:30upx;
+	margin-bottom:4upx;
+ }
+ .coulq{
+	width:150upx;
+	/* border:1px solid red; */
+	text-align: center;
+	margin-top:60upx;
+ }
+ .couliq{
+	/* border:1px solid red; */
+	background-color: #EB0F2B;
+	color:#fff;
+	font-size: 30upx;
+	padding:10upx 0upx;
+	width:130upx;
+	margin-left:20upx;
+	border-radius: 50upx;
+ }
+ .couliqs{
+ 	/* border:1px solid red; */
+ 	background-color: #c3c3c3;
+ 	color:#fff;
+ 	font-size: 30upx;
+ 	padding:10upx 0upx;
+ 	width:130upx;
+ 	margin-left:20upx;
+ 	border-radius: 50upx;
+ }
+ .sx{
+	 color:#797979;
+	 text-align: center;
+	 margin-top:50upx;
+	 font-size: 30upx;
+ }
+
+ .sxy{
+	color:#434343;
+ }

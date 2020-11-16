@@ -1,0 +1,45 @@
+.container{
+	padding:20upx 80upx;
+	text-align: center;
+}
+.rec{
+	color:#C5C5C5;
+	font-size: 29upx;
+	margin-bottom:60upx;
+}
+.rech{
+	
+	border-bottom:1px solid #DCDCDC;
+	margin-bottom:20upx;
+}
+.rech-q{
+	font-size:60upx;
+}
+.rech-inp{
+	/* border:1px solid red; */
+	height:80upx;
+}
+.rec-t{
+	font-size:29upx;
+	color:#878787;
+	margin-bottom:40upx;
+}
+.red{
+	color:red;
+	margin-left:10upx;
+}
+
+
+
+.con-ch{
+	margin-top:50upx;
+}
+.con-ch-tit{
+	font-size:35upx;
+	color:#292929;
+}
+.con-ch-d{
+	font-size:28upx;
+	color:red;
+	margin-bottom: 5upx;
+}

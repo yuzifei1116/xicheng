@@ -1,0 +1,21 @@
+.sear{
+	/* border-bottom:1upx solid red; */
+	padding:20upx 35upx;
+	background:#F8F8F8;
+}
+.searc{
+	/* border:1px solid red; */
+	border-radius: 50upx;
+	padding:15upx;
+	background: #fff;
+}
+.sear-inp{
+	/* border:1px solid red; */
+	width:500upx;
+	margin-top:5upx;
+}
+.sear-font{
+	font-size:30upx;
+	margin-top:15upx;
+	margin-left:20upx;
+}

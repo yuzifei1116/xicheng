@@ -1,0 +1,67 @@
+ /* 商品列表 */
+ .goods-list{
+ 	display:flex;
+ 	flex-wrap:wrap;
+ 	padding: 10upx 30upx;
+ 	background: #fff;
+ }
+ .goods-item{
+ 	display:flex;
+ 	flex-direction: column;
+ 	width: 100%;
+ 	border-bottom:1px solid #F7F7F7;
+ 	/* padding-bottom: 40upx; */
+	padding:15upx 0upx;
+ 	&:nth-child(2n+1){
+ 		margin-right: 4%;
+ 	}
+ }
+ .image-wra{
+ 	border-radius: 3px;
+ 	overflow: hidden;
+ 	/* border:1px solid red; */
+	padding-right:10upx;
+ }
+ .couimg{
+ 	width:150upx;
+ 	height: 150upx;
+ 	opacity: 1;
+ 	/* border:1px solid red; */
+ }
+
+ .coutime{
+	 font-size: 20upx;
+	 colro:;
+ }
+ .text{
+	/* border:1px solid red; */
+	width:380upx;
+	padding-left:5upx;
+ }
+ .line1{
+	font-size: 38upx;
+	margin-bottom:4upx;
+ }
+ .coulq{
+	width:150upx;
+	/* border:1px solid red; */
+	text-align: center;
+	margin-top:80upx;
+ }
+ .couliq{
+	/* border:1px solid red; */
+	/* background-color: #EB0F2B; */
+	/* color:#fff; */
+	border:1px solid #b3b3b3;
+	font-size: 30upx;
+	padding:10upx 0upx;
+	width:130upx;
+	margin-left:20upx;
+	border-radius: 5upx;
+ }
+ .sx{
+	 color:#797979;
+	 text-align: center;
+	 margin-top:50upx;
+	 font-size: 35upx;
+ }

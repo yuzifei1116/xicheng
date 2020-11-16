@@ -1,0 +1,136 @@
+<!DOCTYPE html><html lang="zh-cn"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>今日气价</title>
+    <link rel="stylesheet" type="text/css" href="css/mall.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+
+    <link rel="stylesheet" href="/public/static/plug/layui/css/layui.css">
+    <script src="/public/static/plug/layui/layui.js"></script>
+    <!--<script src="http://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>-->
+    <!--<script src="https://unpkg.com/axios/dist/axios.min.js"></script>-->
+    <script src="js/ajax.js"></script>
+
+    <style id="__WXWORK_INNER_SCROLLBAR_CSS">
+        ::-webkit-scrollbar { width: 12px !important; height: 12px !important; }::-webkit-scrollbar-track:vertical {  }::-webkit-scrollbar-thumb:vertical { background-color: rgba(136, 141, 152, 0.5) !important; border-radius: 10px !important; background-clip: content-box !important; border:2px solid transparent !important; } ::-webkit-scrollbar-track:horizontal {  }::-webkit-scrollbar-thumb:horizontal { background-color: rgba(136, 141, 152, 0.5) !important; border-radius: 10px !important; background-clip: content-box !important; border:2px solid transparent !important; } ::-webkit-resizer { display: none !important; }
+    </style>
+    <style>
+
+        .fxmask img {
+            width: 21.3rem;
+            height: 20rem;
+            margin-left: 1.5rem;
+        }
+        .name{
+            font-size: 18px;
+            color:#fff;
+            margin-left:20px;
+            margin-top:10px;
+        }
+        .yq{
+            width:50%;
+        }
+
+        /* 我的活动 */
+        .pad{
+            margin:10px 20px 10px 20px;
+            padding:5px;
+        }
+        .tu{
+            width:100%;
+        }
+        .ming{
+            padding:5px 10px 5px 10px;
+        }
+        .bt{
+            font-size: 18px;
+        }
+        .jies{
+            color:#A0A0A0;
+            margin-bottom: 5px;
+            /*border:1px solid red;*/
+        }
+        .zlz{
+            color:#3D918F;
+            line-height: 30px;
+        }
+        .ywc{
+            color:#F35847;
+        }
+        .ck{
+            float: right;
+            background:#F35847;
+
+        }
+
+        .vip{
+            background-image:-webkit-linear-gradient(bottom,red,#fd8403,yellow);
+            -webkit-background-clip:text;
+            -webkit-text-fill-color:transparent;
+        }
+    </style>
+
+</head>
+
+<body>
+<!--我的-->
+
+<section class="Info">
+    <section class="InfoCurrency" style="padding-bottom: 20px">
+        <div class="pd15-0" style="text-align: center;">
+            <h2 class="InfoTit">今日气价</h2>
+        </div>
+        <img style="width: 100%;" src="/public/uploads/images/20191121115040.jpg" class="full-img">
+        <div class="layui-row hang">
+
+            {volist name="list" id="item"}
+            <div class="layui-row pad" style="border-bottom: 1px dashed #E4E4E4">
+                <div class="layui-col-xs2 layui-col-sm2 layui-col-md2 ">
+                    <img class="tu" src="/public/uploads/images/微信图片_20191031115228.png" alt="">
+                </div>
+                <div class="layui-col-xs10 layui-col-sm10 layui-col-md10 ming">
+                    <div class="bt">
+                        <div class="layui-col-xs10 layui-col-sm10 layui-col-md10">{$item.name}</div>
+                    </div>
+                    <div class="layui-col-xs12 layui-col-sm12 layui-col-md12 jies">{$item.place}</div>
+                    <div class="layui-col-xs12 layui-col-sm12 layui-col-md12">
+                        <span class="zlz">挂牌价：</span>
+                        <span class="zlz">{$item.price} 元/kg</span>
+                        <br/>
+                        <span class="ywc">优惠价：</span>
+                        <span class="ywc">{$item.discount>0?$item.discount:'--'} 元/kg</span>
+                        <!--<button class="layui-btn layui-btn-xs ck">我的邀请</button>-->
+                    </div>
+
+                </div>
+            </div>
+            {/volist}
+
+        </div>
+
+        <div class="layui-row jiaz" style="text-align: center">
+
+        </div>
+    </section>
+
+</section>
+<!--底部导航-->
+<div class="h50"></div>
+<footer class="foorer clearfix">
+
+</footer>
+<script>
+
+
+
+
+
+</script>
+
+
+</body></html>

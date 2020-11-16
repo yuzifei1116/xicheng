@@ -1,0 +1,75 @@
+.loaded{
+	width:100%;
+	/* border:1 */
+}
+.maskpri{
+	/* border:1px solid red; */
+	/* margin-top:10upx; */
+}
+.maskname{
+	font-size:35upx;
+	font-weight: bold;
+	margin-bottom:6upx;
+}
+.stock{
+	font-size:20upx;
+}
+
+/* 数量 */
+.makenum{
+	font-size:30upx;
+	color:#606266;
+	margin-bottom:15upx;
+	margin-top:10upx;
+}
+.cnum{
+	/* border:2upx solid #A4A4A4; */
+	/* padding:4upx  0upx ; */
+	width:244upx;
+}
+.clnum{
+	width:80upx;
+	text-align: center;
+	line-height: 50upx;
+}
+.clnuml{
+	color:#A4A4A4;
+	font-weight: bold;
+	border:1upx solid #A4A4A4;
+	border-right:0;
+	font-size:40upx;
+	border-radius: 5upx 0upx 0upx 5upx;
+}
+.onnuml{
+	border:1px solid #E3E3E3;
+	color:#E3E3E3;
+	border-right:0;
+	
+}
+
+.clnumr{
+	color:#A4A4A4;
+	font-weight: bold;
+	font-size:40upx;
+	border:1upx solid #A4A4A4;
+	border-left:0;
+	border-radius: 0upx 5upx 5upx 0upx;
+}
+.onnumr{
+	border:1px solid #E3E3E3;
+	color:#E3E3E3;
+	border-left:0;
+}
+.clinum{
+	border:1px solid #A4A4A4;
+	font-size: 30upx;
+	/* border-right:1px solid #A4A4A4; */
+}
+.richimg{
+	/* border:1px solid red; */
+	/* width:50%; */
+	/* padding:20upx; */
+}
+/deep/ .richimg img{
+	width:100%;
+}

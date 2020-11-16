@@ -1,0 +1,142 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title></title>
+    <script src="{__STATIC_PATH}js/jquery.min.js"></script>
+    <style id="__WXWORK_INNER_SCROLLBAR_CSS">
+        ::-webkit-scrollbar {
+            width: 12px !important;
+            height: 12px !important;
+        }
+        ::-webkit-scrollbar-track:vertical {  }
+        ::-webkit-scrollbar-thumb:vertical {
+            background-color: rgba(136, 141, 152, 0.5) !important;
+            border-radius: 10px !important;
+            background-clip: content-box !important;
+            border:2px solid transparent !important;
+        }
+        ::-webkit-scrollbar-track:horizontal {  }
+        ::-webkit-scrollbar-thumb:horizontal {
+            background-color: rgba(136, 141, 152, 0.5) !important;
+            border-radius: 10px !important;
+            background-clip: content-box !important;
+            border:2px solid transparent !important;
+        }
+        ::-webkit-resizer {
+            display: none !important;
+        }
+    </style>
+    <link href="{__STATIC_PATH}css/mui.min.css" rel="stylesheet">
+
+</head>
+
+<body class="mui-wechat mui-wechat-7 mui-wechat-7-0 mui-wechat-7-0-5">
+
+
+<div id="app">
+    <div class="oil-station-detail">
+        <div class="header"><img src="{$detail.image}" class="full-img"></div>
+        <div class="cells">
+            <div class="cell">
+                <div class="cell__hd "><img src="/public/uploads/images/微信图片_20191031115228.png" width="50px" height="50px"></div>
+                <div class="cell__bd column"><p class="name"> {$detail.name} </p>
+<!--                    <p class="font-medium-l">距离您 3.73  公里</p>-->
+<!--                    <div>-->
+<!--                        {volist name="$detail.image" id="item"}-->
+<!--                        <div class="serviceurl"><img src="{$detail.image}" alt="" class="imgrect"></div>-->
+<!--                        {/volist}-->
+<!--                    </div>-->
+                </div>
+                <!--<div class="cell-box__btn">-->
+                    <!--<div class="cell__btn" style="width:100%" onclick="openMap('{$detail.longitude}','{$detail.latitude}','{$detail.name}')">-->
+                        <!--<img src="/public/uploads/images/微信图片_20191031115228.png"> <span class="text"><a href="http://map.baidu.com/mobile/">到这里</a></span>-->
+                    <!--</div>-->
+                <!--</div>-->
+            </div>
+
+            <div class="cell cell-line">
+                <div class="cell__bd font-medium">
+                    <img src="/public/uploads/images/position.png">
+                    <span class="text">{$detail.place}</span>
+                </div>
+            </div>
+            <div class="cell cell-line">
+                <div class="cell__bd font-medium">
+                    <img src="/public/uploads/images/phone.png">
+                    <span class="text"><a href="tel:{$detail.phone}" class="phone">{$detail.phone}</a></span>
+                </div>
+            </div>
+            <div class="cell cell-line">
+                <div class="cell__bd column">
+                    <div class="font-small">今日价格<div style="font-size: 10px;display: inline">(价格仅供参考，实际价格以加气站为准)</div></div>
+                </div>
+            </div>
+
+            <div class="cell cell-line">
+                <div class="cell__bd font-small-l">
+                    <p class="text">今日价格：{$detail.price}/单位</p>
+                </div>
+                {if condition="$detail.price!=$detail.discount"}
+                <div class="cell__bd font-small-l">
+                    <p class="price">优惠价：{$detail.discount}/单位</p>
+                </div>
+                {else /}
+                <div class="cell__bd font-small-l">
+                    <p class="price">优惠价：无</p>
+                </div>
+                {/if}
+            </div>
+<!--            <div class="cell cell-line">-->
+<!--                <div class="cell__bd font-small-l">-->
+<!--                    <p class="text">98号 车用汽油(京Ⅵ)</p>-->
+<!--                </div>-->
+<!--                <div class="cell__bd font-small-l">-->
+<!--                    <p class="price">￥7.87/升</p>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="cell cell-line">-->
+<!--                <div class="cell__bd font-small-l">-->
+<!--                    <p class="text">95号 车用汽油(京Ⅵ)</p>-->
+<!--                </div>-->
+<!--                <div class="cell__bd font-small-l">-->
+<!--                    <p class="price">￥7.19/升</p>-->
+<!--                </div>-->
+<!--            </div>-->
+
+        </div>
+    </div>
+</div>
+
+<script src="{__STATIC_PATH}js/mui.min.js"></script>
+
+<script type="text/javascript">
+    var mask = mui.createMask();
+
+    function LTrim(str) {
+        var i;
+        for (i = 0; i < str.length; i++) {
+            if (str.charAt(i) != " " && str.charAt(i) != " ") break;
+        }
+        str = str.substring(i, str.length);
+        return str;
+    }
+    function RTrim(str) {
+        var i;
+        for (i = str.length - 1; i >= 0; i--) {
+            if (str.charAt(i) != " " && str.charAt(i) != " ") break;
+        }
+        str = str.substring(0, i + 1);
+        return str;
+    }
+    function Trim(str) {
+        return LTrim(RTrim(str));
+    }
+
+
+</script>
+
+<link href="{__STATIC_PATH}css/stationinfo.css" rel="stylesheet" type="text/css">
+
+
+
+</body></html>

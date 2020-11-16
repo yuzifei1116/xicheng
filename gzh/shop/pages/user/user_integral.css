@@ -1,0 +1,146 @@
+ /* 商品列表 */
+ .goods-list{
+ 	display:flex;
+ 	flex-wrap:wrap;
+ 	padding: 10upx 30upx;
+ 	background: #fff;
+ }
+ .goods-item{
+ 	display:flex;
+ 	flex-direction: column;
+ 	width: 100%;
+ 	border-bottom:1px solid #F7F7F7;
+ 	/* padding-bottom: 40upx; */
+	padding:15upx 0upx;
+ 	&:nth-child(2n+1){
+ 		margin-right: 4%;
+ 	}
+ }
+ .money{
+	/* border:1px solid red; */
+	color:red;
+	font-size: 35upx;
+ }
+ .money1{
+	color:#16AC57;
+	font-size: 35upx;
+ }
+ .coutime{
+	 font-size: 20upx;
+	 color:#999999;
+ }
+ .good-list-time{
+	padding:20upx;
+	background:#F5F5F5;
+	width:100%;
+	font-size: 28upx;
+	color:#666666;
+ }
+ .text{
+	padding-left:5upx;
+ }
+ .line1{
+	font-size: 30upx;
+	margin-bottom:6upx;
+	
+ }
+ 
+ .int-hed{
+	 height:460upx;
+	 z-index: 1;
+	 color:#fff
+ }
+ .int-img{
+	width:100%;
+	height:460upx;
+	position: absolute;
+ }
+ .int-hed-jf{
+	z-index: 1;
+	text-align: center;
+	/* border:1px solid #fff; */
+	width:100%;
+	font-size:28rpx;
+	margin-top:30upx;
+	margin-bottom:20upx;
+	/* height:40upx; */
+ }
+ .int-hed-jf-num{
+	z-index: 1;
+	text-align: center;
+	width:100%;
+	font-size: 72upx;
+	/* border:1px solid #fff; */
+ }
+ .int-hed-list{
+	z-index: 1;
+	margin-bottom:60upx;
+	width:100%;
+	margin-top:40upx;
+	text-align: center;
+ }
+ .int-hed-list1{
+	width:33%;
+	/* border:1px solid red; */
+ }
+ .int-hed-list-num{
+	 font-size:35rpx;
+ }
+ .int-hed-list-tit{
+	 font-size:26upx;
+ }
+ .con-list-icon{
+	 font-size:36upx;
+	 margin-right:5upx;
+ }
+ 
+ 
+ .good-list-item{
+	background-image: linear-gradient(to right,#fff7e7 0%,#fffdf9 100%);
+	width: 690rpx;
+	height: 180rpx;
+	position: relative;
+	border-radius: 10rpx;
+	margin: 0 auto 20rpx auto;
+	padding: 30rpx 25rpx 0 25rpx;
+	box-sizing: border-box;
+
+ }
+ 
+ .image-wra{
+ 	border-radius: 3px;
+ 	overflow: hidden;
+ 	/* border:1px solid red; */
+ 	padding-right:10upx;
+ }
+ .couimg{
+ 	width:90upx;
+ 	height: 150upx;
+ 	opacity: 1;
+ 	/* border:1px solid red; */
+ }
+ .text1{
+	 width:320upx;
+	 font-size:32rpx;
+	 color:#C8A86B;
+	 font-weight: bold;
+	 margin-top:20upx;
+	 margin-left:20upx;
+ }
+ 
+ .coulq{
+ 	width:150upx;
+ 	/* border:1px solid red; */
+ 	text-align: center;
+ 	margin-top:30upx;
+ }
+ .couliqs{
+ 	border:1px solid #C8A86B;
+ 	/* background-color: #c3c3c3; */
+ 	color:#C8A86B;
+ 	font-size: 30upx;
+ 	padding:6upx 0upx;
+ 	width:170upx;
+ 	margin-left:20upx;
+ 	border-radius: 50upx;
+ }

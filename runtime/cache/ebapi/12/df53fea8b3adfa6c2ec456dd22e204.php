@@ -1,0 +1,4 @@
+<?php
+//000000001400
+ exit();?>
+a:3:{i:0;a:9:{s:2:"id";i:1;s:5:"title";s:7:"轮播1";s:3:"img";s:78:"http://www.2009_xicheng.com/public/uploads/attach/2020/01/08/5e153c3331581.jpg";s:3:"url";s:1:"#";s:8:"bg_color";s:7:"#cb573c";s:5:"order";i:0;s:8:"add_time";i:0;s:7:"is_show";i:1;s:6:"status";i:1;}i:1;a:9:{s:2:"id";i:2;s:5:"title";s:7:"轮播2";s:3:"img";s:55:"http://www.2009_xicheng.com/gzh/static/temp/banner2.jpg";s:3:"url";s:1:"#";s:8:"bg_color";s:7:"#cdd7da";s:5:"order";i:0;s:8:"add_time";i:0;s:7:"is_show";i:1;s:6:"status";i:1;}i:2;a:9:{s:2:"id";i:3;s:5:"title";s:7:"轮播3";s:3:"img";s:55:"http://www.2009_xicheng.com/gzh/static/temp/banner1.jpg";s:3:"url";s:1:"#";s:8:"bg_color";s:7:"#b74945";s:5:"order";i:0;s:8:"add_time";i:0;s:7:"is_show";i:1;s:6:"status";i:1;}}

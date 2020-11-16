@@ -1,0 +1,553 @@
+<!DOCTYPE html><html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>加气站导航</title>
+    <style id="__WXWORK_INNER_SCROLLBAR_CSS">
+        ::-webkit-scrollbar {
+            width: 12px !important;
+            height: 12px !important;
+        }
+        ::-webkit-scrollbar-track:vertical {  }
+        ::-webkit-scrollbar-thumb:vertical {
+            background-color: rgba(136, 141, 152, 0.5) !important;
+            border-radius: 10px !important;
+            background-clip: content-box !important;
+            border:2px solid transparent !important;
+        }
+        ::-webkit-scrollbar-track:horizontal {  }
+        ::-webkit-scrollbar-thumb:horizontal {
+            background-color: rgba(136, 141, 152, 0.5) !important;
+            border-radius: 10px !important;
+            background-clip: content-box !important;
+            border:2px solid transparent !important;
+        }
+        ::-webkit-resizer {
+            display: none !important;
+        }
+    </style>
+
+    <link rel="stylesheet" href="{__STATIC_PATH}css/mui.min.css">
+    <link rel="stylesheet" href="{__STATIC_PATH}css/stationgavigation.css">
+
+	<script type="text/javascript" src="{__PLUG_PATH}wxApi.js"></script>
+    <script>
+
+    </script>
+
+    <script src="{__STATIC_PATH}js/jquery.min.js"></script>
+    <script src="{__STATIC_PATH}js/eventwrapper.min.js"></script>
+    <script src="{__STATIC_PATH}js/mui.min.js"></script>
+
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script type="text/javascript" src="https://api.map.baidu.com/api?v=2.0&amp;ak=oOYYVuVO2GKi0Clafd1VfWME"></script>
+    <script type="text/javascript" src="https://api.map.baidu.com/getscript?v=2.0&amp;ak=oOYYVuVO2GKi0Clafd1VfWME&amp;services=&amp;t=20191018173825"></script>
+    <style type="text/css">
+        #allmap {
+            width: 100%;
+            height: 100%;
+        }
+        html,body {
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height:100%;
+            /*overflow: hidden;*/
+        }
+        .BMap_stdMpCtrl div {
+            position: absolute;
+        }
+
+
+        .BMap_ie6 .BMap_stdMpZoomIn div {
+            left: 0;
+            top: -221px;
+        }
+
+        .BMap_ie6 .BMap_stdMpZoomOut div {
+            left: 0;
+            top: -265px;
+        }
+
+
+        .BMap_ie6 .BMap_stdMpSliderBgTop div {
+            left: -23px;
+            top: -226px;
+        }
+
+        .BMap_ie6 .BMap_stdMpSliderBgBot div {
+            left: -33px;
+            bottom: 0;
+        }
+
+        .BMap_ie6 .BMap_stdMpSliderBar div {
+            top: -309px;
+        }
+
+        .BMap_ie6 .BMap_stdMpSliderBar.h div {
+            top: -320px;
+        }
+
+
+        .BMap_ie6 .BMap_zlSt div {
+            top: -380px;
+        }
+
+        .BMap_ie6 .BMap_zlCity div {
+            top: -401px;
+        }
+
+        .BMap_ie6 .BMap_zlProv div {
+            top: -422px;
+        }
+
+        .BMap_ie6 .BMap_zlCountry div {
+            top: -443px;
+        }
+
+        .BMap_cpyCtrl a {
+            font-size: 11px;
+            color: #7979CC;
+        }
+
+        .BMap_scaleCtrl div {
+            position: absolute;
+            overflow: hidden;
+            /*overflow:scroll;*/
+        }
+
+        .BMap_scaleHBar img,.BMap_scaleLBar img,.BMap_scaleRBar img {
+            position: absolute;
+            width: 37px;
+            height: 442px;
+            left: 0;
+        }
+
+        .BMap_scaleHBar img {
+            top: -437px;
+            width: 100%;
+        }
+
+
+        .BMap_scaleLBar img {
+            top: -427px;
+            left: 0;
+        }
+
+        .BMap_scaleRBar img {
+            top: -427px;
+            left: -5px;
+        }
+        .BMap_pop .BMap_top img,.BMap_pop .BMap_center img,.BMap_pop .BMap_bottom img {
+            display: none;
+        }
+
+        @media print {
+            .BMap_noprint {
+                display: none;
+            }
+
+            .BMap_noscreen {
+                display: block;
+            }
+
+            .BMap_mask {
+                background: none;
+            }
+
+            .BMap_pop .BMap_top img,.BMap_pop .BMap_center img,.BMap_pop .BMap_bottom img {
+                display: block;
+            }
+        }
+
+        .route_tip_con .route_tip span {
+            position: absolute;
+            top: 0;
+            right: 0;
+            _right: 1px;
+            width: 14px;
+            height: 13px;
+            background: url(https://api.map.baidu.com/images/addrPage.png?v=20121107) no-repeat 0 -121px;
+            cursor: pointer;
+        }
+
+        .sel_n1 .sel_body_button a {
+            display: none;
+        }
+
+
+        .sel_x1 .sel_body_button a {
+            display: none;
+        }
+
+
+        .sel_body_resitem table {
+            margin-right: 5px;
+        }
+
+        .sel_body_resitem tr {
+            cursor: pointer;
+        }
+
+        .sel_body_resitem th {
+            padding-top: 5px;
+            padding-left: 5px;
+            text-align: left;
+            vertical-align: top;
+            width: 22px;
+        }
+
+
+
+        .sel_body_resitem td {
+            line-height: 160%;
+            padding: 3px 0 3px 3px;
+            vertical-align: top;
+        }
+
+
+        .sel_body_resitem div.ra_td_button input {
+            height: 18px;
+            font-size: 12px;
+            width: 40px;
+        }
+
+
+
+        .sel_body_body td a {
+            text-decoration: none;
+            cursor: auto;
+        }
+
+        .sel_body_body td a:hover,.sel_body_body td a:focus {
+            text-decoration: underline;
+        }
+
+
+
+        .pano_photo_item img {
+            display: inline-block;
+            border: solid 1px #252525
+        }
+
+        .pano_photo_item:hover img {
+            border-color: #005efc
+        }
+
+
+        .navtrans-table tr {
+            color: #666
+        }
+
+        .navtrans-table tr:hover {
+            color: #333
+        }
+
+
+
+        .BMap_CityListCtrl a {
+            text-decoration: none!important
+        }
+
+        .BMap_CityListCtrl a:hover {
+            text-decoration: underline!important
+        }
+
+        .ui_city_change_top .ui_city_change_inner i,.ui_city_change_bottom .ui_city_change_inner i {
+            width: 8px;
+            height: 6px;
+            display: inline-block;
+            position: relative;
+            top: 9px;
+            left: 5px;
+            -webkit-transition: all ease-in-out .15s;
+            transition: all ease-in-out .15s;
+            display: none;
+        }
+
+        .ui_city_change_click .ui_city_change_inner i,.ui_city_change_click_close .ui_city_change_inner i {
+            -webkit-transform: rotate(180deg);
+            -moz-transform: rotate(180deg);
+            -o-transform: rotate(180deg);
+            transform: rotate(180deg)
+        }
+
+        .ui_city_change_top .ui_city_change_inner:hover em {
+            border-top-color: #0C88E8
+        }
+
+        .ui_city_change_top .ui_city_change_inner em {
+            width: 0;
+            height: 0;
+            border-color: rgba(255,255,255,0);
+            border-top-color: #D0D4DA;
+            border-style: solid;
+            border-width: 4px
+        }
+
+
+        .ui_city_change_bottom .ui_city_change_inner:hover em {
+            border-bottom-color: #0C88E8
+        }
+
+        .ui_city_change_bottom .ui_city_change_inner em {
+            width: 0;
+            height: 0;
+            border-color: rgba(255,255,255,0);
+            border-bottom-color: #D0D4DA;
+            border-style: solid;
+            border-width: 4px;
+            position: relative;
+            top: -18px
+        }
+
+        #sel_city_letter_list a {
+            white-space: nowrap;
+            margin-right: 11px;
+            line-height: 18px;
+            font-size: 13px;
+            font-family: Arial,Helvetica,SimSun,sans-serif
+        }
+
+        #city_detail_table tr td {
+            vertical-align: top
+        }
+
+        .sel_city_hotcity a {
+            color: #3d6dcc
+        }
+
+        .sel_city_letter div {
+            font-size: 24px;
+            line-height: 24px;
+            font-weight: 700;
+            color: #ccc;
+            padding: 0;
+            margin: 0;
+            font-family: Arial,Helvetica,SimSun,sans-serif
+        }
+
+        .sel_city_sf a {
+            white-space: nowrap;
+            line-height: 18px;
+            color: #3d6dcc
+        }
+        .a1{
+            position: absolute;
+            height: 70% !important;
+            overflow: hidden;
+            background-color: rgb(243, 241, 236);
+            color: rgb(0, 0, 0);
+            text-align: left;
+            z-index: 0;
+        }
+
+    </style>
+</head>
+
+<body class="mui-wechat mui-wechat-7 mui-wechat-7-0 mui-wechat-7-0-5">
+
+<div id="app">
+    <div id="allmap" class="a1" style="">
+
+    </div>
+
+    <div id="listcontent" class="oil-station-list" style="top: 70%;position: absolute;">
+        <header id="iheader" class="header" style="cursor:pointer">
+            点击查看更多站点
+        </header>
+        <div class="cells" style="overflow:scroll;">
+            <div class="scroll-container">
+                <div id="pullrefresh" class="" data-pullrefresh="1">
+                    <div class="mui-scroll content" style="transform: translate3d(0px, 0px, 0px) translateZ(0px); transition-duration: 0ms;">
+                        {volist name="list" id="item"}
+                        <div class="cell cell-line cell_access">
+                            <div class="cell__hd ">
+                                <img src="{$item.image}" width="50px" height="50px" />
+                            </div>
+                            <div class="cell__bd">
+                                {if($item.status==1)}
+                                <p class="name">{$item.name}(营业中）</p>
+                                {else /}
+                                <p class="name">{$item.name}(未营业）</p>
+                                {/if}
+                                <p class="font-medium-l"><img src="/public/uploads/images/position.png" /> <span class="text">距您<span class="distance{$item.id}"></span>公里<br /></span></p>
+                            </div>
+                            <div class="cell__ft">
+                                <a href="{:url('wap/site/detail',['id'=>$item.id])}">详情</a>
+                            </div>
+                            <div class="cell-box__btn">
+                                <div class="cell__btn" data-lon="{$item.longitude}" data-lat="{$item.latitude}" data-sitename="{$item.name}" data-place="{$item.place}">
+                                    <img src="/public/uploads/images/luxian.png" />
+                                    <span class="text go-there">到这里</span>
+                                </div>
+                            </div>
+                        </div>
+                        {/volist}
+                        <ul class="mui-table-view">
+                        </ul>
+
+                        <div class="mui-pull-bottom-pocket"><div class="mui-pull"><div class="mui-pull-loading mui-icon mui-spinner"></div><div class="mui-pull-caption">上拉显示更多</div></div></div></div>
+                    <div class="mui-scrollbar mui-scrollbar-vertical"><div class="mui-scrollbar-indicator" style="transition-duration: 0ms; display: block; height: 34px; transform: translate3d(0px, 0px, 0px) translateZ(0px);"></div></div></div>
+            </div>
+            <div id="refreshContainer"></div>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+
+    //点击到这事件
+    $('.cell-box__btn .cell__btn').on('click',function () {
+
+        var lon = $(this).attr('data-lon');
+        var lat = $(this).attr('data-lat');
+        var sitename = $(this).attr('data-sitename');
+        var place = $(this).attr('data-place');
+        wx.openLocation({
+            latitude: parseFloat(lat), // 纬度，浮点数，范围为90 ~ -90
+            longitude: parseFloat(lon), // 经度，浮点数，范围为180 ~ -180。
+            name: sitename, // 位置名
+            address: place, // 地址详情说明
+            scale: 14, // 地图缩放级别,整形值,范围从1~28。默认为最大
+            infoUrl: '' // 在查看位置界面底部显示的超链接,可点击跳转
+        });
+    });
+
+    //计算两个标注点的距离
+    function GetDistance( lat1,  lng1,  lat2,  lng2) {
+        var radLat1 = lat1 * Math.PI / 180.0;
+        var radLat2 = lat2 * Math.PI / 180.0;
+        var a = radLat1 - radLat2;
+        var b = lng1 * Math.PI / 180.0 - lng2 * Math.PI / 180.0;
+        var s = 2 * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2), 2) +
+                Math.cos(radLat1) * Math.cos(radLat2) * Math.pow(Math.sin(b / 2), 2)));
+        s = s * 6378.137;// EARTH_RADIUS;
+        s = Math.round(s * 10000) / 10000;
+        return s;
+    }
+
+        // 百度地图API功能
+    var map = new BMap.Map("allmap");
+    var geolocation = new BMap.Geolocation();
+
+    (function ($) {
+        relocation();
+    })(mui);
+
+    function relocation() {
+        geolocation.getCurrentPosition(function(r) {
+            if (this.getStatus() === BMAP_STATUS_SUCCESS) {
+				$jssdk = function(){return <?=\app\core\util\WechatService::jsSdk()?>;}
+                window.wechat_share_title="<?=\app\core\util\SystemConfigService::get('wechat_share_title')?>";
+                window.wechat_share_synopsis="<?=\app\core\util\SystemConfigService::get('wechat_share_synopsis')?>";
+                window.wechat_share_img="<?=\app\core\util\SystemConfigService::get('wechat_share_img')?>";
+                mapleWx($jssdk(), function () {
+                    this.onMenuShareAll({
+                        title: wechat_share_title || $('title').text(),
+                        desc: wechat_share_synopsis || $('title').text(),
+                        imgUrl: location.origin +wechat_share_img,
+                        link:location.href,
+                    });
+
+				    wx.getLocation({
+					    type: 'wgs84', // 默认为wgs84的gps坐标，如果要返回直接给openLocation用的火星坐标，可传入'gcj02'
+					    success: function (res) {
+                            var latitude = res.latitude; // 纬度，浮点数，范围为90 ~ -90
+                            var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+                            var speed = res.speed; // 速度，以米/每秒计
+                            var accuracy = res.accuracy; // 位置精度
+
+                            var wxPoint = {'lng':res.longitude,'lat':res.latitude};
+                            r.point.lat = res.latitude;
+                            r.point.lng = res.longitude;
+
+                            //多点遮挡物
+                            var myIcon = new BMap.Icon("/public/uploads/images/klicon-sm.png", new BMap.Size(23, 25), {
+                                anchor: new BMap.Size(10, 25),
+                            });
+
+
+                            var point = new BMap.Point(r.point.lng, r.point.lat);
+                            map.centerAndZoom(point, 15); // 初始化地图，设置中心点坐标和地图级别
+                            map.enableScrollWheelZoom();
+
+
+                            var mk = new BMap.Marker(r.point);
+                            map.addOverlay(mk);
+
+                            //多站点标注
+                            var i = 0;
+                            map.addOverlay(mk);
+                            map.enableScrollWheelZoom(true);
+                            //调用数据
+                            var arr={:json_encode($list)};
+                            console.log(arr);
+                            function markerFun (points,label,infoWindows) {
+                                var markers = new BMap.Marker(points, {icon: myIcon});
+                                map.addOverlay(markers);
+                                markers.setLabel(label);
+                                markers.addEventListener("click",function (event) {
+                                    map.openInfoWindow(infoWindows,points);//参数：窗口、点  根据点击的点出现对应的窗口
+                                });
+                            }
+                            for (i=0;i<arr.length;i++) {
+                                var points = new BMap.Point(arr[i].longitude,arr[i].latitude);//创建坐标点
+                                var opts = {
+                                    width:250,
+                                    height: 100,
+                                    title:arr[i].phone
+                                };
+                                var label = new BMap.Label(arr[i].name,{
+                                    offset:new BMap.Size(25,5)
+                                });
+                                var infoWindows = new BMap.InfoWindow(arr[i].place,opts);
+                                markerFun(points,label,infoWindows);
+
+                                //计算自己跟站点之间的距离
+                                var distance = GetDistance(arr[i].latitude,arr[i].longitude,res.latitude,res.longitude);
+
+                                $('.distance'+arr[i].id).html(distance.toFixed(1));
+                            }
+
+					    }
+				    })
+			    });
+
+                $(function () {
+                    $("#iheader").on("click touchstart", function () {
+                        var heightValue = $('#listcontent').height();
+                        var tpValue = $('#listcontent').position().top;
+                        if (tpValue > heightValue) {
+                            $("#iheader").html("点击收起更多站点");
+
+                            $('.cells').css('height','433px')
+                            $("#listcontent").css("top", $("#listcontent").offset().top / 2);
+                        }
+                        if (heightValue > tpValue) {
+                            $("#iheader").html("点击查看更多站点");
+
+                            $('.cells').css('height','175px')
+
+
+                            $("#listcontent").css("top", $("#listcontent").offset().top * 2);
+                        }
+                    });
+
+                });
+            } else {
+                // mui.alert("无法获取您的定位，已为您选择默认城市11。", "提示");
+                alert('failed'+this.getStatus());
+
+            }
+        });
+    }
+</script>
+
+</body>
+</html>

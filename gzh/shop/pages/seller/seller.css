@@ -1,0 +1,107 @@
+ /* 商品列表 */
+ 
+ .han{
+ 	/* border:1px solid red; */
+ 	height:20upx;
+	background:#EEEEEE;
+ }
+ .onr{
+	padding:20upx 30upx;
+	/* border-bottom:1px solid red; */
+ }
+ .goods-list{
+ 	display:flex;
+ 	flex-wrap:wrap;
+ 	padding: 10upx 0upx;
+ 	background: #fff;
+ }
+ .goods-item{
+ 	display:flex;
+ 	flex-direction: column;
+ 	width: 100%;
+	padding:15upx 0upx;
+ 	&:nth-child(2n+1){
+ 		margin-right: 4%;
+ 	}
+ }
+ .image-wra{
+ 	border-radius: 3px;
+ 	overflow: hidden;
+ 	/* border:1px solid red; */
+	padding-right:10upx;
+ }
+ .couimg{
+ 	width:150upx;
+ 	height: 150upx;
+ 	opacity: 1;
+ 	/* border:1px solid red; */
+ }
+ .money{
+	/* border:1px solid red; */
+	color:#FA4398;
+	font-size: 34upx;
+	margin-top:50upx
+ }
+ .coutime{
+	 font-size: 20upx;
+	 colro:;
+ }
+ .text{
+	/* border:1px solid red; */
+	width:530upx;
+	padding-left:5upx;
+ }
+ .dz1{
+	font-size: 24upx;
+	margin-bottom:2upx;
+	color:#666666;
+ }
+ .line1{
+	font-size: 28upx;
+	margin-bottom:4upx;
+ }
+ .coulq{
+	width:150upx;
+	/* border:1px solid red; */
+	text-align: center;
+	margin-top:80upx;
+ }
+ .couliq{
+	border:1px solid #b3b3b3;
+	font-size: 30upx;
+	padding:10upx 0upx;
+	width:130upx;
+	margin-left:20upx;
+	border-radius: 5upx;
+ }
+ .sx{
+	 color:#797979;
+	 text-align: center;
+	 margin-top:50upx;
+	 font-size: 35upx;
+ }
+ 
+ .fot{
+	border-top:1px solid #EEEEEE;
+	width:100%;
+	text-align: center;
+	margin-top:10upx;
+	padding-top:20upx;
+ }
+ .dianp1{
+	border:1px solid #EDEDED;
+ }
+ .dianp{
+	width:45%;
+	border-radius: 8upx;
+	color:#888888;
+	font-size: 28upx;
+	padding:8upx 0px;
+	background: #fff;
+	height:70upx;
+	line-height: 50upx;
+ }
+ .uni-button{
+	line-height: 50upx;
+ }
+ 

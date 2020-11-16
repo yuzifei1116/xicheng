@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.evcon{
+	padding:10rpx 30rpx 20rpx 30rpx;
+	background:#FFF;
+	border-bottom:1px solid #F5F5F5;
+}
+.evimg{
+	width:150rpx;
+	height:150rpx;
+	/* border:1px solid red; */
+}
+.evt{
+	/* border:1px solid red; */
+	width:540rpx;
+	padding-left:20rpx;
+}
+.ncol{
+	color:#8E8E8E;
+	font-size: 30rpx;
+}
+.evxing{
+	padding:40rpx 30rpx;
+	background:#fff;
+	/* border-bottom:1px solid #F5F5F5; */
+	font-size:30rpx;
+}
+.evalx{
+	margin-bottom:30rpx;
+}
+.evrate{
+	margin-top:19rpx;
+	margin-left:35rpx;
+}
+.product{
+	margin-left:30rpx;
+	color:#ECECEC;
+	margin-top:
+}
+.evtext{
+	background:#FAFAFA;
+	margin-top:60rpx;
+	border-radius: 5rpx;
+	padding:25rpx;
+}
+.evarea{
+	/* border:1px solid red; */
+}
+uni-textarea{
+	/* border:1px solid red; */
+	width:100%;
+	height:200rpx;
+}
+.upimg{
+	margin-top:20rpx;
+}
+.uplimg{
+	font-size:120rpx;
+	text-align: center;
+	border:1px solid #ECECEC;
+	width:180rpx;
+	height:180rpx;
+	color:#ECECEC;
+}
+.btn{
+	margin-top:40rpx;
+}
+page {
+  background: #f8f8f8;
+  padding-bottom: 100rpx;
+}
+
