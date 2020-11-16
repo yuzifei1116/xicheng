@@ -15,6 +15,9 @@ use app\core\model\user\User;
 use app\core\model\user\UserBill;
 use basic\ModelBasic;
 use traits\ModelTrait;
+use app\ebapi\model\user\WechatUser;
+use app\ebapi\model\activity\Activity;
+use app\core\util\MiniProgramService;
 
 class ActivityOrder extends ModelBasic
 {
@@ -147,5 +150,26 @@ class ActivityOrder extends ModelBasic
             ->where('o.paid',1)
             ->group('o.activity_id')->count();
         return compact('count','data');
+    }
+
+     /**
+     * 支付
+     */
+    public static function jsPay($orderId,$field = 'order_id')
+    {
+        if(is_string($orderId))
+            $orderInfo = self::where($field,$orderId)->find();
+        else
+            $orderInfo = $orderId;
+        if(!$orderInfo || !isset($orderInfo['paid'])) exception('支付订单不存在!');
+        if($orderInfo['paid']) exception('支付已支付!');
+        if($orderInfo['pay_price'] <= 0) exception('该支付无需支付!');
+        $openid = WechatUser::getOpenId($orderInfo['uid']);
+
+        //为了获取商品名称
+        $store_name = Activity::where('id',$orderInfo->activity_id)->title;
+        // $store_name = $orderInfo['store_names'];
+
+        return MiniProgramService::jsPay($openid,$orderInfo['order_id'],$orderInfo['pay_price'],'productr',$store_name);
     }
 }

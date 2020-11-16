@@ -71,7 +71,11 @@ class ActivityApi extends AuthController
                 return JsonService::status('pay_error','微信支付失败');
             }
         }else{ //微信支付
-            return JsonService::status('success', '微信支付成功',$info);
+            if (ActivityOrder::jsPay($order['order_id'])){
+                return JsonService::status('success', '微信支付成功',$info);
+            }else{
+                return JsonService::status('pay_error','微信支付失败');
+            }
         }
     }
 
