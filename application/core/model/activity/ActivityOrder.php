@@ -96,22 +96,43 @@ class ActivityOrder extends ModelBasic
         if($orderInfo['paid']) return self::setErrorInfo('该订单已支付!');
         self::beginTrans();
         $res1 = UserBill::expend($uid,'购买门票','activity','wechat',$orderInfo['pay_price'],$orderInfo['id']);
-        $res2 = self::paySuccess($orderInfo,$uid);
+        $res2 = self::paySuccesses($orderInfo,$uid);
         $res = $res1 && $res2;
         self::checkTrans($res);
         return $res;
     }
 
     /**
-     * 回调
+     * 回调 -- jsPayPrice
      */
-    public static function paySuccess($orderInfo,$uid)
+    public static function paySuccesses($orderInfo,$uid)
     {
         $res1 = self::edit(['paid'=>1,'pay_time'=>time()],$orderInfo['id']);
         $res2 = User::where('uid',$orderInfo['uid'])->setInc('activity_count');
-        return $res1 && $res2;
+        $give_integral = Activity::where('id',$orderInfo['id'])->value('give_integral');
+        $res3 = User::where('uid',$orderInfo['uid'])->setInc('integral',$give_integral);
+        $res4 = UserBill::income($uid,'购买门票赠送积分','activity','integral',$give_integral,$orderInfo['id']);
+        return $res1 && $res2 && $res3 && $res4;
     }
 
+
+    /**
+     * 回调 
+     */
+    public static function paySuccess($orderInfo,$uid)
+    {
+        self::beginTrans();
+        $res1 = self::edit(['paid'=>1,'pay_time'=>time()],$orderInfo['id']);
+        $res2 = User::where('uid',$orderInfo['uid'])->setInc('activity_count');
+        $give_integral = Activity::where('id',$orderInfo['id'])->value('give_integral');
+        $res3 = User::where('uid',$orderInfo['uid'])->setInc('integral',$give_integral);
+        $res4 = UserBill::income($uid,'购买门票赠送积分','activity','integral',$give_integral,$orderInfo['id']);
+        $res = $res1 && $res2 && $res3 && $res4;
+        self::checkTrans($res);
+        return $res;
+    }
+
+    
     public static function getTwoCount()
     {
         $count = self::group('uid')->count(); //用户购买的次数
@@ -167,7 +188,7 @@ class ActivityOrder extends ModelBasic
         $openid = WechatUser::getOpenId($orderInfo['uid']);
 
         //为了获取商品名称
-        $store_name = Activity::where('id',$orderInfo->activity_id)->title;
+        $store_name = Activity::where('id',$orderInfo->activity_id)->value('title');
         // $store_name = $orderInfo['store_names'];
 
         return MiniProgramService::jsPay($openid,$orderInfo['order_id'],$orderInfo['pay_price'],'productr',$store_name);

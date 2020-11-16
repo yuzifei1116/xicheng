@@ -163,3 +163,100 @@
 [ info ] [ LOG ] INIT File
 [ error ] [8]未定义变量: coupon[D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php:92]
 [ error ] [0] Undefined variable: coupon [D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php : 92]
+---------------------------------------------------------------
+[ 2020-11-16T18:17:14+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/write_off?order_id=3
+[运行时间：0.243623s] [吞吐率：4.10req/s] [内存消耗：3,947.99kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'write_off',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '7a4f491a-e5ce-4bf6-acce-1f8a350a17cf',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.192762s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->write_off[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: orderInfo[D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php:285]
+[ error ] [0] Undefined variable: orderInfo [D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php : 285]
+---------------------------------------------------------------
+[ 2020-11-16T18:17:29+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/write_off?order_id=3
+[运行时间：0.279578s] [吞吐率：3.58req/s] [内存消耗：3,952.09kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'write_off',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'd6540d68-f3b3-4c0a-b076-1c8e8385b177',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.231686s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->write_off[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Undefined property: think\db\Query::$give_integral[D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php:285]
+[ error ] [0] Undefined property: think\db\Query::$give_integral [D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php : 285]
+---------------------------------------------------------------
+[ 2020-11-16T20:34:08+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/menu_api/cart_add_sub?id=1&type=2
+[运行时间：0.216939s] [吞吐率：4.61req/s] [内存消耗：3,851.03kb] [文件加载：78]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'menu_api',
+    2 => 'cart_add_sub',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '3463ce8b-882d-4266-9d70-e5cf0fbc5b75',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'type' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.156617s ]
+[ info ] [ RUN ] app\ebapi\controller\MenuApi->cart_add_sub[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\MenuApi.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8192]Non-static method think\Model::delete() should not be called statically[D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\MenuApi.php:109]
+[ error ] [0] Non-static method think\Model::delete() should not be called statically [D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\MenuApi.php : 109]

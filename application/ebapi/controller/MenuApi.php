@@ -23,13 +23,13 @@ class MenuApi extends AuthController
         return [
             'menu',
             'menu_cate_list',
-            'set_cart',
-            'cart_list',
-            'clear_cart',
-            'menu_info',
-            'buy',
-            'order_list',
-            'comment',
+            // 'set_cart',
+            // 'cart_list',
+            // 'clear_cart',
+            // 'menu_info',
+            // 'buy',
+            // 'order_list',
+            // 'comment',
         ];
     }
 
@@ -89,6 +89,62 @@ class MenuApi extends AuthController
             return JsonService::successfuljson();
         }else{
             return JsonService::failjson('系统错误');
+        }
+    }
+
+    /**
+     * 购物车加减
+     */
+    public function cart_add_sub()
+    {
+        $id = input('get.id/d',0); 
+
+        $type = input('get.type/d'); // 1加  0减
+
+        if(!$id) return JsonService::failjson('请选择菜品');
+        
+        if(!$type) return JsonService::failjson('数据错误');
+
+        if($type == 1) $res = MenuCart::where('id',$cart['id'])->setDec('num');
+            else $res = MenuCart::where('id',$id)->delete();
+
+        if ($res){
+            return JsonService::successfuljson();
+        }else{
+            return JsonService::failjson('系统错误');
+        }
+    }
+
+    /**
+     * 支付-优惠券
+     */
+    public function cart_pay()
+    {
+        //待重写
+        $table_num = input('get.table_num/d',0); //桌号
+        $people_num = input('get.people_num/d',0); //人数
+        $integral = input('get.integral/d',0); //使用积分
+        $coupon_id = input('get.coupon_id/d',0); //使用优惠券
+        $mark = input('get.mark',''); //使用优惠券
+
+        if (!$table_num) return JsonService::failjson('请输入桌号');
+        if (!$people_num) return JsonService::failjson('请输入人数');
+        $carts = MenuCart::getCartList($this->uid);
+        if (empty($carts)) return JsonService::failjson('请先添加菜品');
+        $userInfo = User::get($this->uid);
+        if ($userInfo['integral'] < $integral) return JsonService::failjson('积分不足');
+
+        //创建订单
+        $order = $this->create_order($carts,$table_num,$people_num,$integral,$coupon_id,$mark);
+        $info = ['oid'=>$order['id']];
+        if ($order['pay_price'] <= 0){
+            if (MenuOrder::jsPayPrice($order['order_id'], $this->userInfo['uid'])){
+                return JsonService::status('success', '微信支付成功',$info);
+            }else{
+                return JsonService::status('pay_error','微信支付失败');
+            }
+        }else{ //微信支付
+            return JsonService::status('success', '微信支付成功',$info);
         }
     }
 

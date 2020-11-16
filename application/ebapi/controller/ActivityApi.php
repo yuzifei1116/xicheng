@@ -276,12 +276,17 @@ class ActivityApi extends AuthController
      */
     public function write_off()
     {
-        $order_id = input('get.order_id/d',0);
-        $order = ActivityOrder::get(['id'=>$order_id])->toArray();
+        $id = input('get.id/d',0);
+        $order = ActivityOrder::get(['id'=>$id])->toArray();
         if (empty($order)) return JsonService::failjson('数据不存在');
         if ($order['uid'] != $this->uid) return JsonService::failjson('数据错误');
         if ($order['status'] != 0) return JsonService::failjson('数据错误');
         unset($order['integral_deduction']);
-        return \json_encode($order);
+        $res = Activity::where('id',$order['activity_id'])->find();
+        $order['title'] = $res['title'];
+        $order['image'] = $res['image'];
+        $order['price'] = $res['price'];
+        if($order['paid'] == 1) $order['paid'] == '已支付';else $order['paid'] == '未支付';
+        return JsonService::successfuljson($order);
     }
 }

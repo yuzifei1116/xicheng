@@ -7632,3 +7632,803 @@
 [ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
 [ info ] [ CACHE ] INIT File
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T18:16:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.063337s] [吞吐率：15.79req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000009s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T18:17:54+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/write_off?order_id=3
+[运行时间：0.276260s] [吞吐率：3.62req/s] [内存消耗：3,829.94kb] [文件加载：71]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'write_off',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'f1c16c29-c667-4d59-b563-76f10a94844c',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.226278s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->write_off[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T18:25:33+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/write_off?order_id=3
+[运行时间：0.259967s] [吞吐率：3.85req/s] [内存消耗：3,860.25kb] [文件加载：72]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'write_off',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'c81001a6-9915-40fd-8309-3083d813ea0a',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.214240s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->write_off[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T18:26:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.057345s] [吞吐率：17.44req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000009s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T18:29:39+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/write_off?order_id=3
+[运行时间：0.234259s] [吞吐率：4.27req/s] [内存消耗：3,888.20kb] [文件加载：73]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'write_off',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'c53065f8-1ccd-4a3e-b257-b550e61bf74a',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'order_id' => '3',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.178377s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->write_off[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T18:36:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.060897s] [吞吐率：16.42req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000009s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T18:46:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.061242s] [吞吐率：16.33req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000009s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T18:56:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.059437s] [吞吐率：16.82req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000009s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T19:06:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.060482s] [吞吐率：16.53req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000010s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T19:16:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.050734s] [吞吐率：19.71req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000010s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T19:26:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.060815s] [吞吐率：16.44req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000010s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T19:36:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.060157s] [吞吐率：16.62req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000010s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T19:46:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.070750s] [吞吐率：14.13req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000010s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T19:56:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.059233s] [吞吐率：16.88req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000009s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T20:06:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.061739s] [吞吐率：16.20req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000010s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T20:16:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.061635s] [吞吐率：16.22req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000010s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T20:26:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.061780s] [吞吐率：16.19req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000009s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T20:34:29+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/menu_api/cart_add_sub?id=1&type=2
+[运行时间：0.283431s] [吞吐率：3.53req/s] [内存消耗：3,678.40kb] [文件加载：71]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'menu_api',
+    2 => 'cart_add_sub',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '667a59ba-33d7-405e-8649-5258bc2c2b9c',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'type' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.120220s ]
+[ info ] [ RUN ] app\ebapi\controller\MenuApi->cart_add_sub[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\MenuApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T20:36:16+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/menu_api/cart_add_sub?id=4&type=2
+[运行时间：0.359319s] [吞吐率：2.78req/s] [内存消耗：3,678.40kb] [文件加载：71]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'menu_api',
+    2 => 'cart_add_sub',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '46d8e763-6291-4bfe-a7fb-7be88a5a3e11',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.1',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'id' => '4',
+  'type' => '2',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.205778s ]
+[ info ] [ RUN ] app\ebapi\controller\MenuApi->cart_add_sub[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\MenuApi.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T20:36:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.058658s] [吞吐率：17.05req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000009s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T20:46:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.060210s] [吞吐率：16.61req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000009s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T20:56:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.053940s] [吞吐率：18.54req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000010s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-11-16T21:06:37+08:00 ] 127.0.0.1 GET xicheng.com/admin/index/jnotice.html
+[运行时间：0.060402s] [吞吐率：16.56req/s] [内存消耗：4,489.55kb] [文件加载：75]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'jnotice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=k8fvsgi0dh6kced9362f9fuopq; is_login=0; is_bg=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://xicheng.com/admin',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'xicheng.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'prefix' => 'admin',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run behavior\admin\SystemBehavior @admin_visit [ RunTime:0.000009s ]
+[ info ] [ RUN ] app\admin\controller\Index->Jnotice[ D:\phpstudy_pro\WWW\xicheng\application\admin\controller\Index.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
