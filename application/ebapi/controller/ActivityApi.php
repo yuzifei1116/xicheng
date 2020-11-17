@@ -45,6 +45,23 @@ class ActivityApi extends AuthController
     }
 
     /**
+     * 活动详情
+     */
+    public function activity_details()
+    {
+        $id = input('get.id');
+        if (!$id) return JsonService::failjson('数据错误');
+        $list = Activity::where('id',$id)->find();
+        $list['start_time'] = $date=date('Y-m-d',$list['start_time']);
+        $list['end_time'] = $date=date('Y-m-d',$list['end_time']);
+        if ($list){
+            return JsonService::successfuljson($list);
+        }else{
+            return JsonService::failjson('系统错误');
+        }
+    }
+
+    /**
      * 购买
      */
     public function buy()
