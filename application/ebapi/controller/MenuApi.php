@@ -130,7 +130,7 @@ class MenuApi extends AuthController
                 ->where('a.is_del',0)
                 ->where('is_use',0)
                 ->where('min_money','<',$money)
-                ->field('a.*')
+                ->field('a.*,w.id as coupon_id')
                 ->select();
         if ($list){
             return JsonService::successfuljson($list);

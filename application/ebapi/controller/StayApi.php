@@ -94,7 +94,7 @@ class StayApi extends AuthController
                 ->where('a.is_del',0)
                 ->where('is_use',0)
                 ->where('min_money','<',$money)
-                ->field('a.*')
+                ->field('a.*,w.id as coupon_id')
                 ->select();
         if ($list){
             return JsonService::successfuljson($list);
@@ -102,6 +102,23 @@ class StayApi extends AuthController
             return JsonService::failjson('系统错误');
         }
     }
+
+
+    /**
+     * 使用优惠券--修改状态
+     */
+    public function coupons_reduce()
+    {
+        $coupon_id = \input('get.coupon_id');
+        if(!$coupon_id) return JsonService::failjson('数据错误');
+        $res = CouponUse::where('id',$coupon_id)->update(['status'=>2]);
+        if ($res){
+            return JsonService::successfuljson();
+        }else{
+            return JsonService::failjson('系统错误');
+        }
+    }
+
 
     /**
      * 房间详情

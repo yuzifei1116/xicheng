@@ -618,3 +618,97 @@
 [ info ] [ LOG ] INIT File
 [ error ] [8]unserialize(): Error at offset 0 of 864 bytes[D:\phpstudy_pro\WWW\xicheng\thinkphp\library\think\cache\driver\File.php:126]
 [ error ] [0] unserialize(): Error at offset 0 of 864 bytes [D:\phpstudy_pro\WWW\xicheng\thinkphp\library\think\cache\driver\File.php : 126]
+---------------------------------------------------------------
+[ 2020-11-17T14:06:06+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/stay_api/coupons_reduce?coupon_id=1
+[运行时间：0.259781s] [吞吐率：3.85req/s] [内存消耗：3,849.04kb] [文件加载：77]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'stay_api',
+    2 => 'coupons_reduce',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '4ce6577d-f1e3-4cab-8cf2-9ef42eaf19d1',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.5',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+  'coupon_id' => '1',
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.184151s ]
+[ info ] [ RUN ] app\ebapi\controller\StayApi->coupons_reduce[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\StayApi.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: money[D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\StayApi.php:113]
+[ error ] [0] Undefined variable: money [D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\StayApi.php : 113]
+---------------------------------------------------------------
+[ 2020-11-17T14:07:03+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/coupons_list
+[运行时间：0.383366s] [吞吐率：2.61req/s] [内存消耗：3,902.48kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'coupons_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => 'ff84c83c-411c-448b-b806-e1b9ad9313e2',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.5',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.288518s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->coupons_list[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous[D:\phpstudy_pro\WWW\xicheng\thinkphp\library\think\db\Connection.php:385]
+[ error ] [10501] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous [D:\phpstudy_pro\WWW\xicheng\thinkphp\library\think\db\Connection.php : 385]
+---------------------------------------------------------------
+[ 2020-11-17T14:08:13+08:00 ] 127.0.0.1 GET xicheng.com/ebapi/activity_api/coupons_list
+[运行时间：0.218309s] [吞吐率：4.58req/s] [内存消耗：3,902.48kb] [文件加载：79]
+[ info ] [ LANG ] D:\phpstudy_pro\WWW\xicheng\thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'ebapi',
+    1 => 'activity_api',
+    2 => 'coupons_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'xicheng.com',
+  'postman-token' => '60488149-4285-4162-b58c-ce6c7c61ad79',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.5',
+  'token' => '585a548703aaec1a4c20246e9eb3962948290bf74df893c49397eb9f0aaac777597376e64c35b364d18808abb4deb37e3eb2e7c85a541734d1ba208ad0f1a6c8cf575cdbd6df90033e870923ac4e4b77f17890321e46b785bf624123ce91f24e',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\core\behavior\UserBehavior @init [ RunTime:0.160485s ]
+[ info ] [ RUN ] app\ebapi\controller\ActivityApi->coupons_list[ D:\phpstudy_pro\WWW\xicheng\application\ebapi\controller\ActivityApi.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [10501]SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous[D:\phpstudy_pro\WWW\xicheng\thinkphp\library\think\db\Connection.php:385]
+[ error ] [10501] SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'id' in field list is ambiguous [D:\phpstudy_pro\WWW\xicheng\thinkphp\library\think\db\Connection.php : 385]
