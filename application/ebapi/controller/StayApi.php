@@ -80,6 +80,30 @@ class StayApi extends AuthController
     }
 
     /**
+     * 个人可使用优惠券列表
+     */
+    public function coupons_list()
+    {
+        $money = input('get.money');
+        if(!$money) return JsonService::failjson('数据错误');
+        $list = Coupon::alias('a')->join('coupon_use w','w.coupon_id = a.id')
+                ->where('uid',$this->uid)
+                ->where('type',2)
+                ->where('w.status',1)
+                ->where('a.status',1)
+                ->where('a.is_del',0)
+                ->where('is_use',0)
+                ->where('min_money','<',$money)
+                ->field('a.*')
+                ->select();
+        if ($list){
+            return JsonService::successfuljson($list);
+        }else{
+            return JsonService::failjson('系统错误');
+        }
+    }
+
+    /**
      * 房间详情
      */
     public function room_detail()

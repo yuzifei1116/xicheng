@@ -116,6 +116,30 @@ class MenuApi extends AuthController
     }
 
     /**
+     * 个人可使用优惠券列表
+     */
+    public function coupons_list()
+    {
+        $money = input('get.money');
+        if(!$money) return JsonService::failjson('数据错误');
+        $list = Coupon::alias('a')->join('coupon_use w','w.coupon_id = a.id')
+                ->where('uid',$this->uid)
+                ->where('type',4)
+                ->where('w.status',1)
+                ->where('a.status',1)
+                ->where('a.is_del',0)
+                ->where('is_use',0)
+                ->where('min_money','<',$money)
+                ->field('a.*')
+                ->select();
+        if ($list){
+            return JsonService::successfuljson($list);
+        }else{
+            return JsonService::failjson('系统错误');
+        }
+    }
+
+    /**
      * 支付-优惠券
      */
     public function cart_pay()
@@ -137,6 +161,8 @@ class MenuApi extends AuthController
         //创建订单
         $order = $this->create_order($carts,$table_num,$people_num,$integral,$coupon_id,$mark);
         $info = ['oid'=>$order['id']];
+        $min_money = Coupon::where('coupon_id',$coupon_id)->value('min_money');
+        if($min_money > $order['money']) return JsonService::failjson('优惠券不满足该条件');
         if ($order['pay_price'] <= 0){
             if (MenuOrder::jsPayPrice($order['order_id'], $this->userInfo['uid'])){
                 return JsonService::status('success', '微信支付成功',$info);

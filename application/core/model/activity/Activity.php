@@ -48,7 +48,7 @@ class Activity extends ModelBasic
             ->field('id,title,image,price,original_price,sales,ficti')
             ->order('start_time asc')
             ->page($page,$limit)
-            ->cache('ticket_list_'.$page.$limit,60)
+            // ->cache('ticket_list_'.$page.$limit,60)
             ->select();
         $list = $list->isEmpty() ? [] : $list->toArray();
         foreach ($list as &$v){

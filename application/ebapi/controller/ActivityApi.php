@@ -71,11 +71,11 @@ class ActivityApi extends AuthController
                 return JsonService::status('pay_error','微信支付失败');
             }
         }else{ //微信支付
-            // if (ActivityOrder::jsPay($order['order_id'])){
+            if (ActivityOrder::jsPay($order['order_id'])){
                 return JsonService::status('success', '微信支付成功',$info);
-            // }else{
-            //     return JsonService::status('pay_error','微信支付失败');
-            // }
+            }else{
+                return JsonService::status('pay_error','微信支付失败');
+            }
         }
     }
 
@@ -159,6 +159,30 @@ class ActivityApi extends AuthController
         $limit = input('get.limit/d',10);
         $list = ActivityOrder::OrderList($this->uid,$type,$page,$limit);
         return JsonService::successfuljson($list);
+    }
+
+    /**
+     * 个人可使用优惠券列表
+     */
+    public function coupons_list()
+    {
+        $money = input('get.money');
+        if(!$money) return JsonService::failjson('数据错误');
+        $list = Coupon::alias('a')->join('coupon_use w','w.coupon_id = a.id')
+                ->where('uid',$this->uid)
+                ->where('type',3)
+                ->where('w.status',1)
+                ->where('a.status',1)
+                ->where('a.is_del',0)
+                ->where('is_use',0)
+                ->where('min_money','<',$money)
+                ->field('a.*')
+                ->select();
+        if ($list){
+            return JsonService::successfuljson($list);
+        }else{
+            return JsonService::failjson('系统错误');
+        }
     }
 
     /**
